@@ -1,6 +1,38 @@
 import os
-from PIL import Image
+import tkinter as tk
+from PIL import Image, ImageTk
 import piexif
+
+class ImageTagger:
+    def __init__(self, master, image_paths):
+        self.master = master
+        self.image_paths = image_paths
+        self.current_index = 0
+        
+        self.load_image()
+        self.master.attributes('-fullscreen', True)
+        
+        self.master.mainloop()
+        
+    def load_image(self):
+        if self.current_index < len(self.image_paths):
+            image_path = self.image_paths[self.current_index]
+            self.image = Image.open(image_path)
+            self.photo = ImageTk.PhotoImage(self.image)
+            self.label = tk.Label(self.master, image=self.photo)
+            self.label.pack(fill=tk.BOTH, expand=tk.YES)
+            tag = input(f"Enter a tag for {image_path} (Press Enter to skip): ")
+            if tag:
+                add_tag_to_image(image_path, tag)
+                self.current_index += 1
+                self.label.pack_forget()
+                self.load_image()
+            else:
+                self.label.pack_forget()
+                self.current_index += 1
+                self.load_image()
+        else:
+            self.master.quit()
 
 def add_tag_to_image(image_path, tag):
     try:
@@ -34,22 +66,9 @@ def add_tag_to_image(image_path, tag):
         print(f"Error adding tag to {image_path}: {e}")
 
 def tag_images_in_folder(folder_path):
-    for filename in os.listdir(folder_path):
-        if filename.lower().endswith(('.jpg', '.jpeg', '.png')):
-            image_path = os.path.join(folder_path, filename)
-            print(f"Processing {filename}")
-            
-            # Open and display the image
-            image = Image.open(image_path)
-            image.show()
-            
-            # Ask for a tag for this image
-            tag = input("Enter a tag for this image (Press Enter to skip): ")
-            if tag:
-                add_tag_to_image(image_path, tag)
-            
-            # Close the image
-            image.close()
+    image_paths = [os.path.join(folder_path, filename) for filename in os.listdir(folder_path) if filename.lower().endswith(('.jpg', '.jpeg', '.png'))]
+    root = tk.Tk()
+    ImageTagger(root, image_paths)
 
 def main():
     folder_path = "C:/Users/joela/Desktop/test"  # Adjust this path to your image folder
