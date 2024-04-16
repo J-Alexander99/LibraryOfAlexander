@@ -18,6 +18,13 @@ class ImageTagger:
         if self.current_index < len(self.image_paths):
             image_path = self.image_paths[self.current_index]
             self.image = Image.open(image_path)
+            screen_width = self.master.winfo_screenwidth()
+            screen_height = self.master.winfo_screenheight()
+            image_width, image_height = self.image.size
+            aspect_ratio = min(screen_width / image_width, screen_height / image_height)
+            new_width = int(image_width * aspect_ratio)
+            new_height = int(image_height * aspect_ratio)
+            self.image = self.image.resize((new_width, new_height))
             self.photo = ImageTk.PhotoImage(self.image)
             self.label = tk.Label(self.master, image=self.photo)
             self.label.pack(fill=tk.BOTH, expand=tk.YES)
@@ -71,7 +78,7 @@ def tag_images_in_folder(folder_path):
     ImageTagger(root, image_paths)
 
 def main():
-    folder_path = "C:/Users/joela/Desktop/test"  # Adjust this path to your image folder
+    folder_path = "X:\images"  # Adjust this path to your image folder
     tag_images_in_folder(folder_path)
 
 if __name__ == "__main__":
