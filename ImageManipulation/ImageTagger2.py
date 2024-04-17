@@ -2,7 +2,7 @@ import os
 import tkinter as tk
 from PIL import Image, ImageTk
 import piexif
-
+#This one uses python image viewer
 class ImageTagger:
     def __init__(self, master, image_paths):
         self.master = master

@@ -1,7 +1,7 @@
 import os
 from PIL import Image
 import piexif
-
+#this one uses windows default image viewer
 def add_tag_to_image(image_path, tag):
     try:
         # Load existing EXIF data from the image
@@ -52,7 +52,7 @@ def tag_images_in_folder(folder_path):
             image.close()
 
 def main():
-    folder_path = "C:/Users/joela/Desktop/test"  # Adjust this path to your image folder
+    folder_path = "X:\images"  # Adjust this path to your image folder
     tag_images_in_folder(folder_path)
 
 if __name__ == "__main__":

@@ -20,7 +20,7 @@ def categorize_aspect_ratio(aspect_ratio):
         return "Wide"
     elif aspect_ratio < 2.1:
         return "Desktop"
-    elif aspect_ratio < 2.4:
+    elif aspect_ratio < 2.8:
         return "Ultrawide"
     else:
         return "Unrecognisable"
@@ -45,6 +45,6 @@ def sort_photos_by_aspect_ratio(input_dir, output_dir):
         print(f"Moved {filename} to {category_dir}")
 
 if __name__ == "__main__":
-    input_directory = "C:\\Users\\joela\\Desktop\\test"
-    output_directory = "C:\\Users\\joela\\Desktop\\test"
+    input_directory = "X:\\images"
+    output_directory = "X:\\images"
     sort_photos_by_aspect_ratio(input_directory, output_directory)
