@@ -1,22 +1,12 @@
-import os
 import tkinter as tk
 from tkinter import ttk, filedialog
-from pydub import AudioSegment
+import subprocess
+import os
 from PIL import Image, ImageTk
 
-# Add the directory containing ffmpeg to the PATH environment variable
-ffmpeg_dir = "C:/PATH_Programs"  # Replace this with the directory containing ffmpeg
-os.environ["PATH"] += os.pathsep + ffmpeg_dir
-
-def convert_mp3(mp3_file, output_format):
-    # Load the MP3 file
-    audio = AudioSegment.from_mp3(mp3_file)
-
-    # Extract filename and convert to the chosen format
-    output_file = os.path.splitext(mp3_file)[0] + "." + output_format
-    audio.export(output_file, format=output_format)
-
-    return output_file
+def convert_mp3_to_wav(mp3_file, output_file):
+    command = ["ffmpeg", "-i", mp3_file, "-acodec", "pcm_s16le", "-ar", "44100", output_file]
+    subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
 def select_file():
     file_path = filedialog.askopenfilename(filetypes=[("MP3 files", "*.mp3")])
@@ -29,7 +19,8 @@ def transfigure():
     output_format = format_var.get()
 
     if mp3_file and output_format:
-        output_file = convert_mp3(mp3_file, output_format)
+        output_file = os.path.splitext(mp3_file)[0] + "." + output_format
+        convert_mp3_to_wav(mp3_file, output_file)
         result_label.config(text=f"File converted and saved as {output_file}")
     else:
         result_label.config(text="Please select an MP3 file and output format.")
@@ -39,22 +30,24 @@ root = tk.Tk()
 root.title("MP3 Transfigure")
 root.configure(background='#333333')  # Set background color to dark grey
 
-# Style configurations
-style = ttk.Style()
-style.theme_use('clam')  # Choose a theme
-style.configure('Gold.TButton', background='#FFD700', foreground='black', font=('Helvetica', 12, 'bold'))
-style.configure('Purple.TButton', background='#800080', foreground='white', font=('Helvetica', 12, 'bold'))
-style.configure('TLabel', foreground='white', font=('Helvetica', 12))
+# Get the directory of the Python script
+script_dir = os.path.dirname(os.path.abspath(__file__))
 
-# Load the image using relative path
-executable_dir = os.path.dirname(os.path.abspath(__file__))
-image_path = os.path.join(executable_dir, "images", "record.webp")
+# Load the image relative to the script directory
+image_path = os.path.join(script_dir, "images", "record.webp")
 if os.path.exists(image_path):
     image = Image.open(image_path)
     image = image.resize((200, 200))
     img = ImageTk.PhotoImage(image)
 else:
     img = None
+
+# Style configurations
+style = ttk.Style()
+style.theme_use('clam')  # Choose a theme
+style.configure('Gold.TButton', background='#FFD700', foreground='black', font=('Helvetica', 12, 'bold'))
+style.configure('Purple.TButton', background='#800080', foreground='white', font=('Helvetica', 12, 'bold'))
+style.configure('TLabel', foreground='white', font=('Helvetica', 12))
 
 # Add the image to the window
 if img:
@@ -85,4 +78,3 @@ result_label = ttk.Label(root, text="", style='TLabel')
 result_label.pack()
 
 root.mainloop()
-
