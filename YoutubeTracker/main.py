@@ -37,20 +37,19 @@ def refresh_display():
     text.config(yscrollcommand=scrollbar.set)
     
     for video in videos:
-        title = video['title']
-        url = video['url']
-        watched = video['watched']
-        
-        # Format the display
-        display_text = f"{title}\n{'Watched' if watched else 'Not Watched'}\n\n"
-        
-        # Add clickable link
-        text.tag_configure(url, foreground='blue', underline=True)
-        text.insert('end', display_text, url)
-        text.tag_bind(url, '<Button-1>', lambda event, url=url: webbrowser.open_new(url))
-        
-        # Add button to mark as watched
-        if not watched:
+        if not video['watched']:
+            title = video['title']
+            url = video['url']
+            
+            # Format the display
+            display_text = f"{title}\n\n"
+            
+            # Add clickable link
+            text.tag_configure(url, foreground='blue', underline=True)
+            text.insert('end', display_text, url)
+            text.tag_bind(url, '<Button-1>', lambda event, url=url: webbrowser.open_new(url))
+            
+            # Add button to mark as watched
             mark_button = tk.Button(text, text="Mark as Watched", command=lambda url=url: mark_as_watched(url))
             text.window_create('end', window=mark_button)
             text.insert('end', '\n\n')

@@ -30,6 +30,9 @@ def fetch_videos(channels):
 channel_urls = [
     "https://www.youtube.com/@pawsvtuber/videos",
     "https://www.youtube.com/@Rosiebellmoo/videos",
+    "https://www.youtube.com/@SmugAlanaVtuber/videos",
+    "https://www.youtube.com/@NyaruSunako/videos"
+    "https://www.youtube.com/@chelzorthedestroyer/videos"
     # Add more channel URLs as needed
 ]
 
