@@ -8,7 +8,7 @@ from PIL import Image, ImageTk  # Import Pillow modules
 # Character pool and competitive teams
 characters = [
     "Raiden", "Argenti", "Aventurine", "Bailu", "Black Swan", "Blade", "Boothill", 
-    "Bronya", "Clara", "Dan Heng - Imbibitor Lunae", "Dr. Ratio", "Feixiao", 
+    "Bronya", "Clara", "Dan Heng - Imbibitor Lunae", "Dr Ratio", "Feixiao", 
     "Firefly", "Fu Xuan", "Gepard", "Himeko", "Huohuo", "Jade", "Jiaoqiu", 
     "Jing Yuan", "Jingliu", "Kafka", "Lingsha", "Luocha", "Rappa", "Robin", 
     "Ruan Mei", "Seele", "Silver Wolf", "Sparkle", "Topaz", 
@@ -156,16 +156,16 @@ competitive_teams = [
     ["Dan Heng - Imbibitor Lunae", "Ruan Mei", "Sparkle", "Aventurine"],
     
     #Dr Ratio
-    ["Dr. Ratio", "Topaz", "Robin", "Aventurine"],
-    ["Dr. Ratio", "Moze", "Robin", "Aventurine"],
-    ["Dr. Ratio", "March 7th Imaginary", "Robin", "Aventurine"],
-    ["Dr. Ratio", "Jiaoqiu", "Robin", "Aventurine"],
-    ["Dr. Ratio", "Robin", "Silver Wolf", "Aventurine"],
-    ["Feixiao", "Dr. Ratio", "Robin", "Aventurine"],
-    ["Dr. Ratio", "Moze", "Jiaoqiu", "Aventurine"],
-    ["Dr. Ratio", "March 7th Imaginary", "Ruan Mei", "Aventurine"],
-    ["Dr. Ratio", "Topaz", "Bronya", "Huohuo"],
-    ["Dr. Ratio", "Topaz", "Silver Wolf", "Aventurine"],
+    ["Dr Ratio", "Topaz", "Robin", "Aventurine"],
+    ["Dr Ratio", "Moze", "Robin", "Aventurine"],
+    ["Dr Ratio", "March 7th Imaginary", "Robin", "Aventurine"],
+    ["Dr Ratio", "Jiaoqiu", "Robin", "Aventurine"],
+    ["Dr Ratio", "Robin", "Silver Wolf", "Aventurine"],
+    ["Feixiao", "Dr Ratio", "Robin", "Aventurine"],
+    ["Dr Ratio", "Moze", "Jiaoqiu", "Aventurine"],
+    ["Dr Ratio", "March 7th Imaginary", "Ruan Mei", "Aventurine"],
+    ["Dr Ratio", "Topaz", "Bronya", "Huohuo"],
+    ["Dr Ratio", "Topaz", "Silver Wolf", "Aventurine"],
     
     #Feixiao
     ["Feixiao", "Topaz", "Robin", "Aventurine"],
@@ -353,39 +353,39 @@ competitive_teams = [
     ["Kafka", "Black Swan", "Ruan Mei", "Luocha"],
 
     #Lingsha
-    ["Firefly", "Trailblazer Imaginary", "Ruanmei", "Lingsha"],
-    ["Himiko", "Trailblazer Imaginary", "Ruanmei", "Lingsha"],
+    ["Firefly", "Trailblazer Imaginary", "Ruan mei", "Lingsha"],
+    ["Himiko", "Trailblazer Imaginary", "Ruan mei", "Lingsha"],
     ["Feixiao", "March 7th Imaginary", "Robin", "Lingsha"],
     ["Raiden", "Jiaoqiu", "Pela", "Lingsha"],
-    ["Boothill", "Trailblazer Imaginary", "Ruanmei", "Lingsha"],
-    ["Rapa", "Trailblazer Imaginary", "Ruanmei", "Lingsha"],
+    ["Boothill", "Trailblazer Imaginary", "Ruan mei", "Lingsha"],
+    ["Rapa", "Trailblazer Imaginary", "Ruan mei", "Lingsha"],
     ["Feixiao", "Topaz", "Robin", "Lingsha"],
     ["Rapa", "Firefly", "Trailblazer Imaginary", "Lingsha"],
     ["Raiden", "Jiaoqiu", "Sparkle", "Lingsha"],
-    ["March 7th Imaginary", "Trailblazer Imaginary", "Ruanmei", "Lingsha"],
-    ["Firefly", "Trailblazer Imaginary", "Ruanmei", "Lingsha"],
+    ["March 7th Imaginary", "Trailblazer Imaginary", "Ruan mei", "Lingsha"],
+    ["Firefly", "Trailblazer Imaginary", "Ruan mei", "Lingsha"],
     ["Feixiao", "Topaz", "Robin", "Lingsha"],
     ["Feixiao", "March 7th Imaginary", "Robin", "Lingsha"],
-    ["Dr. Ratio", "Topaz", "Robin", "Lingsha"],
-    ["Dr. Ratio", "Mose", "Tingyun", "Lingsha"],
-    ["Dr. Ratio", "Topaz", "Tingyun", "Lingsha"],
-    ["Dr. Ratio", "Mose", "Robin", ""],
+    ["Dr Ratio", "Topaz", "Robin", "Lingsha"],
+    ["Dr Ratio", "Mose", "Tingyun", "Lingsha"],
+    ["Dr Ratio", "Topaz", "Tingyun", "Lingsha"],
+    ["Dr Ratio", "Mose", "Robin", ""],
 
 
 
     #Luka has no teams lol
     
     #Luocha
-    ["Feixiao", "March 7th Imaginary", "Robin", "Locha"],
-    ["Raiden", "Kafka", "Black Swan", "Locha"],
-    ["Kafka", "Black Swan", "Ruan Mei", "Locha"],
-    ["Kafka", "Black Swan", "Robin", "Locha"],
-    ["Raiden", "Jiaoqiu", "Sparkle", "Locha"],
-    ["Firefly", "Trailblazer Imaginary", "Ruanmei", "Locha"],
-    ["Rapa", "Trailblazer Imaginary", "Ruanmei", "Locha"],
-    ["Feixiao", "Topaz", "Robin", "Locha"],
-    ["Feixiao", "Mose", "Robin", "Locha"],
-    ["Danhong and Baibiter Lunay", "Ruan Mei", "Sparkle", "Locha"],
+    ["Feixiao", "March 7th Imaginary", "Robin", "Luocha"],
+    ["Raiden", "Kafka", "Black Swan", "Luocha"],
+    ["Kafka", "Black Swan", "Ruan Mei", "Luocha"],
+    ["Kafka", "Black Swan", "Robin", "Luocha"],
+    ["Raiden", "Jiaoqiu", "Sparkle", "Luocha"],
+    ["Firefly", "Trailblazer Imaginary", "Ruanmei", "Luocha"],
+    ["Rapa", "Trailblazer Imaginary", "Ruanmei", "Luocha"],
+    ["Feixiao", "Topaz", "Robin", "Luocha"],
+    ["Feixiao", "Mose", "Robin", "Luocha"],
+    ["Danhong and Baibiter Lunay", "Ruan Mei", "Sparkle", "Luocha"],
 
     
     #Lynx
@@ -396,7 +396,7 @@ competitive_teams = [
     ["Yunli", "Sparkle", "Tingyun", "Lynx"],
     ["Yunli", "Robin", "Sparkle", "Lynx"],
     ["Kafka", "Black Swan", "Robin", "Lynx"],
-    ["Dr. Ratio", "Silverwolf", "Sparkle", "Lynx"],
+    ["Dr Ratio", "Silverwolf", "Sparkle", "Lynx"],
     ["Blade", "Bronya", "Jiaoqiu", "Lynx"],
     ["Kafka", "BlackSwan", "Hanya", "Lynx"],
 
@@ -408,7 +408,7 @@ competitive_teams = [
     ["BlackSwan", "Serval", "Tingyun", "March 7th"],
 
     #March 7th Imaginary
-    ["Feixiao", "March 7th Imaginary", "Robin", "Adventuring"],
+    ["Feixiao", "March 7th Imaginary", "Robin", "Adventurine"],
     ["Feixiao", "March 7th Imaginary", "Robin", "Huohuo"],
     ["Feixiao", "March 7th Imaginary", "Robin", "Luocha"],
     ["Feixiao", "March 7th Imaginary", "Robin", "Lingsha"],
@@ -424,10 +424,10 @@ competitive_teams = [
     
     #Moze
     ["Feixiao", "Moze", "Robin", "Aventurine"],
-    ["Dr. Ratio", "Moze", "Robin", "Aventurine"],
-    ["Dr. Ratio", "Moze", "Tingyun", "Aventurine"],
-    ["Dr. Ratio", "Moze", "Robin", "Gallagher"],
-    ["Dr. Ratio", "Moze", "Tingyun", "Gallagher"],
+    ["Dr Ratio", "Moze", "Robin", "Aventurine"],
+    ["Dr Ratio", "Moze", "Tingyun", "Aventurine"],
+    ["Dr Ratio", "Moze", "Robin", "Gallagher"],
+    ["Dr Ratio", "Moze", "Tingyun", "Gallagher"],
     ["Feixiao", "Moze", "Topaz", "Aventurine"],
     ["Feixiao", "Moze", "March 7th Imaginary", "Aventurine"],
 
@@ -480,7 +480,7 @@ competitive_teams = [
     ["Feixiao", "March 7th Imaginary", "Robin", "Gallagher"],
     ["Feixiao", "March 7th Imaginary", "Robin", "Aventurine"],
     ["Kafka", "Black Swan", "Robin", "Huohuo"],
-    ["Dr. Ratio", "Topaz", "Robin", "Aventurine"],
+    ["Dr Ratio", "Topaz", "Robin", "Aventurine"],
     ["Feixiao", "Topaz", "Robin", "Fu Xuan"],
     ["Raiden", "Jiaoqiu", "Robin", "Aventurine"],
 
@@ -590,7 +590,7 @@ competitive_teams = [
     ["Feixiao", "Topaz", "Robin", "Huohuo"],
     ["Feixiao", "Topaz", "Robin", "Gallagher"],
     ["Yunli", "Topaz", "Robin", "Adventurine"],
-    ["Dr. Ratio", "Topaz", "Robin", "Adventurine"],
+    ["Dr Ratio", "Topaz", "Robin", "Adventurine"],
     ["Feixiao", "Topaz", "Robin", "Lingsha"],
     ["Feixiao", "Topaz", "Robin", "Luocha"],
     ["Feixiao", "Topaz", "Sparkle", "Adventurine"],
