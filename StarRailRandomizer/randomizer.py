@@ -39,7 +39,7 @@ competitive_teams = [
     ["Argenti", "Robin", "Sparkle", "Huohuo"],
     
     #Arlan has no teams lol
-    ["Arlan", "Adventurine", "Robin", "Sunday"],
+    ["Arlan", "Aventurine", "Robin", "Sunday"],
     
     #Asta
     ["Kafka", "Black Swan", "Asta", "Huohuo"],
@@ -53,17 +53,17 @@ competitive_teams = [
     ["Kafka", "Black Swan", "Asta", "Bailu"],
     ["Rappa", "Asta", "Trailblazer Imaginary", "Lingsha"],
     
-    #Adventurine
-    ["Feixiao", "Topaz", "Robin", "Adventurine"],
-    ["Feixiao", "March 7th Imaginary", "Robin", "Adventurine"],
-    ["Feixiao", "Moze", "Robin", "Adventurine"],
-    ["Raiden", "Jiaoqiu", "Sparkle", "Adventurine"],
-    ["Raiden", "Jiaoqiu", "Pela", "Adventurine"],
-    ["Raiden", "Kafka", "Black Swan", "Adventurine"],
-    ["Dr Ratio", "Topaz", "Robin", "Adventurine"],
-    ["Raiden", "Pela", "Silver Wolf", "Adventurine"],
-    ["Raiden", "Pela", "Sparkle", "Adventurine"],
-    ["Raiden", "Black Swan", "Jiaoqiu", "Adventurine"],
+    #Aventurine
+    ["Feixiao", "Topaz", "Robin", "Aventurine"],
+    ["Feixiao", "March 7th Imaginary", "Robin", "Aventurine"],
+    ["Feixiao", "Moze", "Robin", "Aventurine"],
+    ["Raiden", "Jiaoqiu", "Sparkle", "Aventurine"],
+    ["Raiden", "Jiaoqiu", "Pela", "Aventurine"],
+    ["Raiden", "Kafka", "Black Swan", "Aventurine"],
+    ["Dr Ratio", "Topaz", "Robin", "Aventurine"],
+    ["Raiden", "Pela", "Silver Wolf", "Aventurine"],
+    ["Raiden", "Pela", "Sparkle", "Aventurine"],
+    ["Raiden", "Black Swan", "Jiaoqiu", "Aventurine"],
     
     #Bailu
     ["Raiden", "Kafka", "Black Swan", "Bailu"],
@@ -80,14 +80,14 @@ competitive_teams = [
     #Black Swan
     ["Kafka", "Black Swan", "Robin", "Huohuo"],
     ["Raiden", "Kafka", "Black Swan", "Fu Xuan"],
-    ["Raiden", "Kafka", "Black Swan", "Adventurine"],
+    ["Raiden", "Kafka", "Black Swan", "Aventurine"],
     ["Raiden", "Kafka", "Black Swan", "Huohuo"],
     ["Kafka", "Black Swan", "Ruan Mei", "Huohuo"],
-    ["Raiden", "Black Swan", "Jiaoqiu", "Adventurine"],
-    ["Kafka", "Black Swan", "Robin", "Adventurine"],
+    ["Raiden", "Black Swan", "Jiaoqiu", "Aventurine"],
+    ["Kafka", "Black Swan", "Robin", "Aventurine"],
     ["Raiden", "Black Swan", "Jiaoqui", "Fu Xuan"],
-    ["Raiden", "Black Swan", "Pela", "Adventurine"],
-    ["Raiden", "Black Swan", "Sparkle", "Adventurine"],
+    ["Raiden", "Black Swan", "Pela", "Aventurine"],
+    ["Raiden", "Black Swan", "Sparkle", "Aventurine"],
     
     #Blade
     ["Blade", "Bronya", "Sparkle", "Luocha"],
@@ -111,20 +111,20 @@ competitive_teams = [
     ["Rappa", "Boothill", "Trailblazer Imaginary", "Gallagher"],
     ["Boothill", "Bronya", "Ruan Mei", "Lingsha"],
     ["Boothill", "Raiden", "Bronya", "Ruan Mei"],
-    ["Boothill", "Bronya", "Ruan Mei", "Adventurine"],
+    ["Boothill", "Bronya", "Ruan Mei", "Aventurine"],
     ["Boothill", "Trailblazer Imaginary", "Ruan Mei", "Gallagher"],
     
     #Bronya
     ["Feixiao", "March 7th Imaginary", "Bronya", "Robin"],
-    ["Raiden", "Bronya", "Jiaoqiu", "Adventurine"],
+    ["Raiden", "Bronya", "Jiaoqiu", "Aventurine"],
     ["Firefly", "Bronya", "Trailblazer Imaginary", "Ruan Mei"],
     ["Raiden", "Bronya", "Pela", "Fu Xuan"],
-    ["Raiden", "Bronya", "Pela", "Adventurine"],
+    ["Raiden", "Bronya", "Pela", "Aventurine"],
     ["Raiden", "Bronya", "Jiaoqiu", "Fu Xuan"],
-    ["Feixiao", "March 7th Imaginary", "Bronya", "Adventurine"],
-    ["Feixiao", "Topaz", "Bronya", "Adventurine"],
+    ["Feixiao", "March 7th Imaginary", "Bronya", "Aventurine"],
+    ["Feixiao", "Topaz", "Bronya", "Aventurine"],
     ["Raiden", "Bronya", "Jiaoqiu", "Gallagher"],
-    ["Feixiao", "Bronya", "Robin", "Adventurine"],
+    ["Feixiao", "Bronya", "Robin", "Aventurine"],
     
     #Clara
     ["Clara", "March 7th Imaginary", "Robin", "Fu Xuan"],
@@ -408,15 +408,15 @@ competitive_teams = [
     ["BlackSwan", "Serval", "Tingyun", "March 7th"],
 
     #March 7th Imaginary
-    ["Feixiao", "March 7th Imaginary", "Robin", "Adventurine"],
+    ["Feixiao", "March 7th Imaginary", "Robin", "Aventurine"],
     ["Feixiao", "March 7th Imaginary", "Robin", "Huohuo"],
     ["Feixiao", "March 7th Imaginary", "Robin", "Luocha"],
     ["Feixiao", "March 7th Imaginary", "Robin", "Lingsha"],
-    ["Feixiao", "March 7th Imaginary", "Sparkle", "Adventurine"],
+    ["Feixiao", "March 7th Imaginary", "Sparkle", "Aventurine"],
     ["Feixiao", "March 7th Imaginary", "Robin", "Fu Xuan"],
     ["Feixiao", "March 7th Imaginary", "Robin", "Gallagher"],
     ["Feixiao", "March 7th Imaginary", "Bronya", "Robin"],
-    ["Feixiao", "March 7th Imaginary", "Bronya", "Adventurine"],
+    ["Feixiao", "March 7th Imaginary", "Bronya", "Aventurine"],
     ["March 7th Imaginary", "Trailblazer Imaginary", "Ruan Mei", "Lingsha"],
 
     #Misha
@@ -575,26 +575,26 @@ competitive_teams = [
     ["Yunli", "Sparkle", "Tingyun", "Huohuo"],
     ["Jing Yuan", "Sparkle", "Tingyun", "Huohuo"],
     ["Kafka", "Black Swan", "Tingyun", "Huohuo"],
-    ["Yunli", "Robin", "Tingyun", "Adventurine"],
-    ["Dan Heng - Imbibitor Lunae", "Sparkle", "Tingyun", "Adventurine"],
+    ["Yunli", "Robin", "Tingyun", "Aventurine"],
+    ["Dan Heng - Imbibitor Lunae", "Sparkle", "Tingyun", "Aventurine"],
     ["Jing Yuan", "Sparkle", "Tingyun", "Fu Xuan"],
-    ["Jing Yuan", "Robin", "Tingyun", "Adventurine"],
+    ["Jing Yuan", "Robin", "Tingyun", "Aventurine"],
     ["Dan Heng - Imbibitor Lunae", "Sparkle", "Tingyun", "Luocha"],
-    ["Jing Yuan", "Sparkle", "Tingyun", "Adventurine"],
+    ["Jing Yuan", "Sparkle", "Tingyun", "Aventurine"],
     
     #Tingyun - Fugue
     
     #Topaz
-    ["Feixiao", "Topaz", "Robin", "Adventurine"],
+    ["Feixiao", "Topaz", "Robin", "Aventurine"],
     ["Feixiao", "Topaz", "Robin", "Fu Xuan"],
     ["Feixiao", "Topaz", "Robin", "Huohuo"],
     ["Feixiao", "Topaz", "Robin", "Gallagher"],
-    ["Yunli", "Topaz", "Robin", "Adventurine"],
-    ["Dr Ratio", "Topaz", "Robin", "Adventurine"],
+    ["Yunli", "Topaz", "Robin", "Aventurine"],
+    ["Dr Ratio", "Topaz", "Robin", "Aventurine"],
     ["Feixiao", "Topaz", "Robin", "Lingsha"],
     ["Feixiao", "Topaz", "Robin", "Luocha"],
-    ["Feixiao", "Topaz", "Sparkle", "Adventurine"],
-    ["Feixiao", "Topaz", "Robin", "Adventurine"],
+    ["Feixiao", "Topaz", "Sparkle", "Aventurine"],
+    ["Feixiao", "Topaz", "Robin", "Aventurine"],
 
     #Trailblazer - Imaginary
     
@@ -603,21 +603,21 @@ competitive_teams = [
     #Welt
     ["Raiden", "Welt", "Pela", "Sparkle"],
     ["Welt", "Trailblazer Imaginary", "Ruan Mei", "Gallagher"],
-    ["Raiden", "Welt", "Spparkle", "Adventurine"],
+    ["Raiden", "Welt", "Spparkle", "Aventurine"],
     ["Raiden", "Welt", "Jiaoqiu", "Gallagher"],
     ["Raiden", "Welt", "Bronya", "Sparkle"],
     ["Raiden", "Welt", "Pela", "Fu Xuan"],
     ["Raiden", "Welt", "Pela", "Ruan Mei"],
     ["Raiden", "Welt", "Sparkle", "Fu Xuan"],
     ["Raiden", "Welt", "Jiaoqiu", "Sparkle"],
-    ["Feixiao", "Welt", "Robin", "Adventurine"],
+    ["Feixiao", "Welt", "Robin", "Aventurine"],
     
     #Xueyi
     ["Xueyi", "Silver Wolf", "Sparkle", "Fu Xuan"],
     ["Firefly", "Xueyi", "Trailblazer Imaginary", "Ruan Mei"],
     
     #Yanqing
-    ["Yanqing", "Kafka", "Black Swan", "Adventurine"],
+    ["Yanqing", "Kafka", "Black Swan", "Aventurine"],
     
     #Yukong
     ["Feixiao", "Tingyun", "Yukong", "Huohuo"],
@@ -627,14 +627,14 @@ competitive_teams = [
     
     #Yunli
     ["Yunli", "Robin", "Tingyun", "Huohuo"],
-    ["Yunli", "Topaz", "Robin", "Adventurine"],
-    ["Feixiao", "Yunli", "Robin", "Adventurine"],
+    ["Yunli", "Topaz", "Robin", "Aventurine"],
+    ["Feixiao", "Yunli", "Robin", "Aventurine"],
     ["Yunli", "March 7th Imaginary", "Robin", "Huohuo"],
     ["Yunli", "Topaz", "Robin", "Huohuo"],
     ["Yunli", "Robin", "Sparkle", "Huohuo"],
     ["Yunli", "Sparkle", "Tingyun", "Huohuo"],
     ["Feixiao", "Yunli", "Tingyun", "Huohuo"],
-    ["Yunli", "Robin", "Tingyun", "Adventurine"],
+    ["Yunli", "Robin", "Tingyun", "Aventurine"],
     ["Yunli", "Robin", "Tingyun", "Fu Xuan"],
 
 
