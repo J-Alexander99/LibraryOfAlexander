@@ -77,13 +77,56 @@ characters = [
 #5.0s
     {"name": "Mualani", "weapon": "Catalyst", "location": "Natlan", "affiliation": "People Of Water", "hair_color": "White", "element": "Hydro", "height": "Medium"},
     {"name": "Kenich", "weapon": "Catalyst", "location": "Natlan", "affiliation": "", "hair_color": "Green", "element": "Dendro", "height": "Medium"},
-    {"name": "", "weapon": "", "location": "Natlan", "affiliation": "", "hair_color": "Blonde", "element": "Geo", "height": "Tall"},
+    {"name": "Xilonen", "weapon": "Sword", "location": "Natlan", "affiliation": "", "hair_color": "Blonde", "element": "Geo", "height": "Tall"},
+    {"name": "Chasca", "weapon": "Bow", "location": "Natlan", "affiliation": "", "hair_color": "Red", "element": "Anemo", "height": "Tall"},
+
+
+    {"name": "Fischl", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Xiangling", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Xingqiu", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Sucrose", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Chongyun", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Diona", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Beidou", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Ningguang", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Razor", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Xinyan", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Bennett", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Rosaria", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Yanfei", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Sayu", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Kujou Sara", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Thoma", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Gorou", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Yun Jin", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Kuki Shinobu", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Heizou", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Collei", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Dori", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Candace", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Layla", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Faruzan", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Yaoyao", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Mika", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Kaveh", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Kirara", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Lynette", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Freminet", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Charlotte", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Chevreuse", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Gaming", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Sethos", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Kachina", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Ororon", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
+    {"name": "Lan Yan", "weapon": "", "location": "", "affiliation": "", "hair_color": "", "element": "", "height": ""},
 
 
 ]
 
 # Predefined competitive teams
 competitive_teams = [
+    
+    #Example Format
     ["Diluc", "Kaeya", "Barbara", "Xiangling"],
     ["Xiangling", "Razor", "Barbara", "Kaeya"],
     ["Diluc", "Xiangling", "Razor", "Kaeya"],
