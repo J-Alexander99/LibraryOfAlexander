@@ -235,17 +235,73 @@ competitive_teams = [
 
     #Seigwiene
 
-    #Dendro woman
+    #Emile
     
 #5.0
 
     #Maulani
 
     #Kinich
-
+    ["Kinich", "Bennett", "Emilie", "Xiangling"],
+    ["Kinich", "Bennett", "Emilie", "Dehya"],
+    ["Kinich", "Bennett", "Emilie", "Thoma"],
+    ["Kinich", "Bennett", "Furina", "Xiangling"],
+    ["Kinich", "Bennett", "Furina", "Dehya"],
+    ["Kinich", "Bennett", "Furina", "Thoma"],
+    ["Kinich", "Bennett", "Xiangling", "Albedo"],
+    ["Kinich", "Bennett", "Xiangling", "Zhongli"],
+    ["Kinich", "Bennett", "Xiangling", "Chiori"],
+    ["Kinich", "Bennett", "Xingqiu", "Thoma"],
+    
     #Geo Lady
+    ["Neuvillette", "Furina", "Kazuha", "Xilonen"],
+    ["Neuvillette", "Furina", "Lynette", "Xilonen"],
+    ["Arlecchino", "Bennett", "Kazuha", "Xilonen"],
+    ["Arlecchino", "Bennett", "Zhongli", "Xilonen"],
+    ["Lyney", "Bennett", "Zhongli", "Xilonen"],
+    ["Lyney", "Bennett", "Chiori", "Xilonen"],
+    ["Wriothesley", "Shenhe", "Chiori", "Xilonen"],
+    ["Ayato", "Furina", "Kazuha", "Xilonen"],
+    ["Ayato", "Furina", "Yelan", "Xilonen"],
+    ["Mualani", "Xiangling", "Sucrose", "Xilonen"],
+    ["Maulani", "Xiangling", "Kazuha", "Xilonen"],
+    ["Hu Tao", "Furina", "Yelan", "Xilonen"],
+    ["Hu Tao", "Xingqiu", "Yelan", "Xilonen"],
+    ["Neuvillette", "Xiangling", "Kazuha", "Xilonen"],
+    ["Neuvillette", "Xiangling", "Emilie", "Xilonen"],
+    ["Neuvillette", "Xiangling", "Lynette", "Xilonen"],
+    ["Wriothesley", "Bennett", "Xiangling", "Xilonen"],
+    ["Ayaka", "Furina", "Shenhe", "Xilonen"],
+    ["Wriothesley", "Furina", "Yelan", "Xilonen"],
+    ["Wriothesley", "Furina", "Shenhe", "Xilonen"],
+    ["CLorinde", "Fischl", "Kirara", "Xilonen"],
+    ["CLorinde", "Fischl", "Nahida", "Xilonen"],
+    ["Cyno", "Furina", "Nahida", "Xilonen"],
+    ["Cyno", "Fischl", "Nahida", "Xilonen"],
+    ["Navia", "Fischl", "Bennett", "Xilonen"],
+    ["Navia", "Furina", "Bennett", "Xilonen"],
+    ["Navia", "Xiangling", "Bennett", "Xilonen"],
+    ["Noelle", "Furina", "Yelan", "Xilonen"],
 
-    #Chaska
+    #Chasca
+    ["Chasca", "Bennett", "Furina", "Xilonen"],
+    ["Chasca", "Bennett", "Furina", "Zhongli"],
+    ["Chasca", "Bennett", "Furina", "Kazuha"],
+    ["Chasca", "Bennett", "Furina", "Xiangling"],
+    ["Chasca", "Bennett", "Furina", "Diona"],
+    ["Chasca", "Bennett", "Furina", "Shenhe"],
+    ["Chasca", "Bennett", "Furina", "Layla"],
+    ["Chasca", "Bennett", "Mona", "Xiangling"],
+    ["Chasca", "Bennett", "Rosaria", "Xiangling"],
+    ["Chasca", "Bennett", "Furina", "Ororon"],
+    ["Chasca", "Bennett", "Furina", "Chevreuse"],
+    ["Chasca", "Bennett", "Furina", "Fischl"],
+    ["Chasca", "Bennett", "Furina", "Beidou"],
+    ["Chasca", "Bennett", "Furina", "Sara"],
+    ["Chasca", "Fischl", "Yaoyao", "Yae Miko"],
+    ["Chasca", "Shenhe", "Charlotte", "Furina"],
+    ["Chasca", "Sigewinne", "Furina", "Ororon"],
+    ["Chasca", "Furina", "Ororon", "Baizhu"],
 
 
 ]
