@@ -1,0 +1,86 @@
+{
+    "xp": 0,
+    "level": 1,
+    "last_reset": "03/01/2025, 02:10:12",
+    "tasks": {
+        "Daily": [
+            {
+                "name": "Morning Exercise",
+                "progress": 0,
+                "repetitions": 1,
+                "xp": 10
+            },
+            {
+                "name": "Read a Chapter",
+                "progress": 0,
+                "repetitions": 1,
+                "xp": 10
+            },
+            {
+                "name": "Drink 8 Glasses of Water",
+                "progress": 0,
+                "repetitions": 8,
+                "xp": 20
+            }
+        ],
+        "Weekly": [
+            {
+                "name": "Clean the House",
+                "progress": 1,
+                "repetitions": 1,
+                "xp": 50
+            },
+            {
+                "name": "Grocery Shopping",
+                "progress": 0,
+                "repetitions": 1,
+                "xp": 40
+            }
+        ],
+        "Monthly": [
+            {
+                "name": "Pay Bills",
+                "progress": 0,
+                "repetitions": 1,
+                "xp": 100
+            },
+            {
+                "name": "Organize Closet",
+                "progress": 0,
+                "repetitions": 1,
+                "xp": 80
+            }
+        ],
+        "Yearly": [
+            {
+                "name": "File Taxes",
+                "progress": 0,
+                "repetitions": 1,
+                "xp": 500
+            },
+            {
+                "name": "Plan Vacation",
+                "progress": 1,
+                "repetitions": 1,
+                "xp": 300
+            }
+        ]
+    },
+    "rewards": [
+        {
+            "name": "Coffee Treat",
+            "level": 2,
+            "redeemed": false
+        },
+        {
+            "name": "Movie Night",
+            "level": 5,
+            "redeemed": false
+        },
+        {
+            "name": "New Game",
+            "level": 10,
+            "redeemed": false
+        }
+    ]
+}

@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # File path for saving and loading user data
 DATA_FILE = "user_data.json"
@@ -41,15 +41,53 @@ def load_data():
 
 # Save user data to a file
 def save_data():
-    data = {
-        "xp": current_xp,
-        "level": current_level,
-        "last_reset": user_data["last_reset"],
-        "tasks": task_data,
-        "rewards": reward_data
-    }
+    user_data["xp"] = current_xp
+    user_data["level"] = current_level
     with open(DATA_FILE, "w") as file:
-        json.dump(data, file, indent=4)
+        json.dump(user_data, file, indent=4)
+
+#reset tasks 
+def reset_tasks():
+    global user_data, current_xp, current_level
+    
+    #get data
+    now = datetime.now()
+    last_reset = datetime.strptime(user_data["last_reset"],"%d/%m/%Y, %H:%M:%S") if user_data["last_reset"] else None
+    
+    #Daily
+    if not last_reset or now.date() > last_reset.date():
+        for task in user_data ["tasks"]["Daily"]:
+            task["progress"] = 0
+    #Weekly
+    if not last_reset or now.isocalendar()[1] > last_reset.isocalendar()[1]:
+        for task in user_data ["tasks"]["Weekly"]:
+            task["progress"] = 0
+    #Monthly
+    if not last_reset or now.month > last_reset.month or now.year > last_reset.year:
+        for task in user_data ["tasks"]["Monthly"]:
+            task["progress"] = 0
+        #reset xp 
+        current_level = 1
+        current_xp = 0
+        #reset rewards
+        for reward in user_data["rewards"]:
+            reward["redeemed"] = False
+            
+    #anchor time/date
+    user_data["last_reset"] = now.strftime("%d/%m/%Y, %H:%M:%S")
+    save_data()
+    
+    #update UI
+    display_tasks(selected_category)
+    update_progress_bar()
+    update_rewards()
+
+#check for resets automatically
+def check_for_resets():
+    reset_tasks()
+    root.after(1000, check_for_resets) #loop de loop and pull
+
+
 
 # Switch between Tasks and Rewards tabs
 def switch_tab(tab):
@@ -89,6 +127,7 @@ def update_task(task):
         task["progress"] += 1
         if task["progress"] == task["repetitions"]:
             award_xp(task["xp"])
+    save_data() #save after each task update
     display_tasks(selected_category)
 
 # Award XP and handle level-up logic
@@ -144,6 +183,7 @@ def redeem_reward(reward):
     if current_level >= reward['level'] and not reward['redeemed']:
         reward['redeemed'] = True
         update_rewards()
+        save_data()
 
 # Initialize variables
 user_data = load_data()
@@ -176,6 +216,8 @@ for cat in ["Daily", "Weekly", "Monthly", "Yearly"]:
 def set_category(category):
     global selected_category
     selected_category = category
+    display_tasks(category)
+    update_timer()
 
 # Main content area
 main_content = tk.Frame(root)
@@ -200,12 +242,45 @@ level_label.pack(pady=10)
 xp_progress = ttk.Progressbar(root, maximum=xp_needed_for_level(current_level), value=current_xp)
 xp_progress.pack(fill="x", padx=10, pady=10)
 
+#Countdown timer for each tab
+def get_period_end(category):
+    now = datetime.now()
+    if category == "Daily":
+        #Day
+        return datetime(now.year, now.month, now.day, 23, 59, 59)
+    elif category == "Weekly":
+        #Week
+        days_until_sunday = (6 - now.weekday()) % 7
+        return now + timedelta(days=days_until_sunday, hours=23 - now.hour, minutes= 59 - now.minute, seconds= 59 - now.second)
+    elif category == "Monthly":
+        #Month
+        next_month = now.month % 12 + 1
+        year = now.year + (now.month // 12)
+        return datetime(year, next_month, 1) - timedelta(seconds = 1)
+    elif category == "Yearly":
+        #Year
+        return datetime(now.year, 12, 31, 23, 59, 59)
+    return now
+
+def update_timer():
+    now = datetime.now()
+    end_time = get_period_end(selected_category)
+    remaining_time = end_time - now
+    
+    countdown_label.config(text=f"Time Remaining: {str(remaining_time).split('.')[0]}")
+    root.after(1000, update_timer)
+
+
+countdown_label = tk.Label(root, text="", font=("Arial", 12))
+countdown_label.pack (pady = 5)
+
 # Initialize
 switch_tab("rewards")  # Default tab
 update_rewards()
+check_for_resets()
 display_tasks("Daily")
 
 # Save progress regularly
-root.after(60000, save_data)
-
+root.after(1000, save_data)
+        
 root.mainloop()
