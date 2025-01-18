@@ -16,7 +16,7 @@ characters = [
     "Welt", "Yanqing", "Yunli", "Arlan", "Asta", "Dan Heng", "Gallagher", 
     "Guinaifen", "Hanya", "Herta", "Hook", "Luka", "Lynx", "March 7th", 
     "March 7th Imaginary", "Misha", "Moze", "Natasha", "Pela", "Qingque", 
-    "Sampo", "Serval", "Sushang", "Tingyun", "Xueyi", "Yukong", "Sunday"
+    "Sampo", "Serval", "Sushang", "Tingyun", "Xueyi", "Yukong", "Sunday","Fugue","The Herta", "Trailblazer Ice"
 ]
 
 
@@ -568,8 +568,17 @@ competitive_teams = [
 
     #Sushang
     ["Sushang", "Robin", "Silver Wolf", "Lingsha"],
+
     #THE Herta <3
-    
+    ["The Herta", "Jade", "Sunday", "Lingsha"],
+    ["The Herta", "Jade", "Robin", "Lingsha"],
+    ["The Herta", "Jade", "Sunday", "Aventurine"],
+    ["The Herta", "Jade", "Robin", "Aventurine"],
+    ["The Herta", "Herta", "Trailblazer Ice", "Gallagher"],
+    ["The Herta", "Serval", "Trailblazer Ice" "Gallagher"],
+    ["The Herta", "Herta", "Pela", "Gallagher"],
+    ["The Herta", "Serval", "Pela", "Gallagher"],
+
     #Tingyun
     ["Yunli", "Robin", "Tingyun", "Huohuo"],
     ["Yunli", "Sparkle", "Tingyun", "Huohuo"],
@@ -583,7 +592,22 @@ competitive_teams = [
     ["Jing Yuan", "Sparkle", "Tingyun", "Aventurine"],
     
     #Tingyun - Fugue
-    
+    ["Firefly", "Fugue", "Ruan Mei", "Lingsha"],
+    ["Firefly", "Fugue", "Trailblazer Imaginary", "Lingsha"],
+    ["Firefly", "Fugue", "Ruan Mei", "Gallagher"],
+    ["Firefly", "Fugue", "Trailblazer Ice", "Gallagher"],
+    ["Firefly", "Fugue", "Ruan Mei", "Trailblazer Imaginary"],
+    ["Rappa", "Fugue", "Ruan Mei", "Lingsha"],
+    ["Himeko", "Fugue", "Ruan Mei", "Lingsha"],
+    ["Boothill", "Fugue", "Sunday", "Lingsha"],
+    ["Boothill", "Fugue", "Sunday", "Gallagher"],
+    ["Boothill", "Fugue", "Bronya", "Lingsha"],
+    ["Boothill", "Fugue", "Bronya", "Gallagher"],
+    ["Boothill", "Fugue", "Ruan Mei", "Lingsha"],
+    ["Boothill", "Fugue", "Ruan Mei", "Gallagher"],
+    ["Raiden", "Fugue", "Jiaoqiu", "Lingsha"],
+    ["Raiden", "Fugue", "Jiaoqiu", "Aventurine"],
+
     #Topaz
     ["Feixiao", "Topaz", "Robin", "Aventurine"],
     ["Feixiao", "Topaz", "Robin", "Fu Xuan"],
@@ -597,9 +621,31 @@ competitive_teams = [
     ["Feixiao", "Topaz", "Robin", "Aventurine"],
 
     #Trailblazer - Imaginary
-    
+    ["Firefly", "Trailblazer Imaginary", "Ruan Mei", "Gallagher"],
+    ["Firefly", "Fugue", "Trailblazer Imaginary", "Ruan Mei"],
+    ["Firefly", "Trailblazer Imaginary", "Ruan Mei", "Lingsha"],
+    ["Rappa", "Trailblazer Imaginary", "Ruan Mei", "Gallagher"],
+    ["Rappa", "Trailblazer Imaginary", "Ruan Mei", "Lingsha"],
+    ["Rappa", "Fugue", "Trailblazer Imaginary", "Ruan Mei"],
+    ["Firefly", "Fugue", "Trailblazer Imaginary", "Lingsha"],
+    ["Firefly", "Fugue", "Trailblazer Imaginary", "Gallagher"],
+    ["Rappa", "Fugue", "Trailblazer Imaginary", "Gallagher"],
+    ["Rappa", "Fugue", "Trailblazer Imaginary", "Lingsha"],
+
     #Trailblazer - Ice
-    
+    ["The Herta", "Jade", "Trailblazer Ice", "Lingsha"],
+    ["The Herta", "Jade", "Trailblazer Ice", "Aventurine"],
+    ["The Herta", "Jade", "Trailblazer Ice", "Gallagher"],
+    ["The Herta", "Herta", "Trailblazer Ice", "Linghsa"],
+    ["The Herta", "Herta", "Trailblazer Ice", "Aventurine"],
+    ["The Herta", "Herta", "Trailblazer Ice", "Gallagher"],
+    ["The Herta", "Serval", "Trailblazer Ice", "Lingsha"],
+    ["The Herta", "Serval", "Trailblazer Ice", "Aventurine"],
+    ["The Herta", "Serval", "Trailblazer Ice", "Gallagher"],
+    ["Raiden", "Jiaoqiu", "Trailblazer Ice", "Aventurine"],
+    ["Yunli", "Robin", "Trailblazer Ice", "Huo Huo"],
+
+
     #Welt
     ["Raiden", "Welt", "Pela", "Sparkle"],
     ["Welt", "Trailblazer Imaginary", "Ruan Mei", "Gallagher"],
