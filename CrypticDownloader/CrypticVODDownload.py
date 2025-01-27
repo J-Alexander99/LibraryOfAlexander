@@ -20,23 +20,17 @@ def download_video():
         # Create the Downloads folder if it doesn't exist
         os.makedirs(downloads_folder, exist_ok=True)
 
-        # Set yt-dlp options
+        # Set yt-dlp options to download video
         ydl_opts = {
-            'format': 'bestaudio/best',
-            'outtmpl': os.path.join(downloads_folder, '%(title)s.%(ext)s'),
-            'postprocessors': [{
-                'key': 'FFmpegExtractAudio',
-                'preferredcodec': 'mp3',
-                'preferredquality': '192',
-            }],
+            'format': 'best',  # Download the best video+audio format available
+            'outtmpl': os.path.join(downloads_folder, '%(title)s.%(ext)s'),  # Save with title and extension
         }
 
-        # Download the video as audio
+        # Download the video
         with YoutubeDL(ydl_opts) as ydl:
             info = ydl.extract_info(link, download=True)
             downloaded_file = ydl.prepare_filename(info)
-            mp3_file = downloaded_file.rsplit('.', 1)[0] + ".mp3"
-            messagebox.showinfo("Download Complete", f"File downloaded and saved as: {mp3_file}")
+            messagebox.showinfo("Download Complete", f"Video downloaded and saved as: {downloaded_file}")
     except Exception as e:
         messagebox.showerror("Error", f"An error occurred: {str(e)}")
 
