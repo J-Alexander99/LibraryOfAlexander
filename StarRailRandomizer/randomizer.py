@@ -7,7 +7,7 @@ from PIL import Image, ImageTk  # Import Pillow modules
 
 # Character pool and competitive teams
 characters = [
-    "Raiden", "Argenti", "Aventurine", "Bailu", "Black Swan", "Blade", "Boothill", 
+    "Raiden","Agaela", "Argenti", "Aventurine", "Bailu", "Black Swan", "Blade", "Boothill", 
     "Bronya", "Clara", "Dan Heng - Imbibitor Lunae", "Dr Ratio", "Feixiao", 
     "Firefly", "Fu Xuan", "Gepard", "Himeko", "Huohuo", "Jade", "Jiaoqiu", 
     "Jing Yuan", "Jingliu", "Kafka", "Lingsha", "Luocha", "Rappa", "Robin", 
@@ -32,6 +32,12 @@ competitive_teams = [
     ["Raiden", "Jiaoqiu", "Pela", "Fu Xuan"],
     ["Raiden", "Pela", "Silver Wolf", "Fu Xuan"],
     ["Raiden", "Silver Wolf", "Sparkle", "Fu Xuan"],
+    
+    #Aglaea
+    ["Aglaea", "Sunday", "Robin", "Huohuo"],
+    ["Aglaea", "Sunday", "Trailblazer Ice", "Huohuo"],
+    ["Aglaea", "Sunday", "Tingyun", "Gallagher"],
+    ["Aglaea", "Trailblazer Ice", "Tingyun", "Gallagher"],
 
     #Argenti
     ["Argenti", "Robin", "Tingyun", "Gallagher"],
@@ -275,7 +281,17 @@ competitive_teams = [
     ["Himeko", "Herta", "Robin", "Aventurine"],
     
     #Himiko
-    
+    ["Himeko", "Fugue", "Ruan Mei", "Gallagher"],
+    ["Himeko", "Fugue", "Ruan Mei", "Lingsha"],
+    ["Firefly", "Himeko", "Fugue", "Ruan Mei"],
+    ["Firefly", "Himeko", "Trailblazer Imaginary", "Aventurine"],
+    ["Jade", "Himeko", "Robin", "Fu Xuan"],
+    ["Himeko", "Fugue", "Trailblazer Imaginary", "Gallagher"],
+    ["Himeko", "Fugue", "Ruan Mei", "Aventurine"],
+    ["Rappa", "Himeko", "Fugue", "Lingsha"],
+    ["Jade", "Himeko", "Robin", "Aventurine"],
+    ["Dan Heng - Imbibitor Lunae", "Himeko", "Ruan Mei", "Aventurine"],
+        
     #Hook
     ["Hook", "Raiden", "Jiaoqiu", "Aventurine"],
     ["Hook", "Robin", "Sparkle", "Lingxia"],
