@@ -144,7 +144,20 @@ competitive_teams = [
     ["Feixiao", "Topaz", "Bronya", "Aventurine"],
     ["Raiden", "Bronya", "Jiaoqiu", "Gallagher"],
     ["Feixiao", "Bronya", "Robin", "Aventurine"],
-    
+
+    #Castorice
+    ["Castorice", "Tribbie", "Trailblazer Ice", "Gallagher"],
+    ["Castorice", "Tribbie", "Sunday", "Gallagher"],
+    ["Castorice", "Tribbie", "Trailblazer Ice", "Luocha"],
+    ["Castorice", "Tribbie", "Sunday", "Luocha"],
+    ["Castorice", "Ruan Mei", "Trailblazer Ice", "Gallagher"],
+    ["Castorice", "Ruan Mei", "Sunday", "Gallagher"],
+    ["Castorice", "Ruan Mei", "Trailblazer Ice", "Luocha"],
+    ["Castorice", "Ruan Mei", "Sunday", "Luocha"],
+    ["Castorice", "Mydei", "Tribbie", "Gallagher"],
+    ["Castorice", "Mydei", "Tribbie", "Luocha"],
+    ["Castorice", "Pela", "Trailblazer Ice", "Gallagher"],
+
     #Clara
     ["Clara", "March 7th Imaginary", "Robin", "Fu Xuan"],
     ["Clara", "Topaz", "Robin", "Fu Xuan"],
