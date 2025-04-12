@@ -13,7 +13,7 @@ class CDLMapDraftApp:
         self.current_team = None
         self.map_pools = {
             "Hardpoint": ["Skyline", "Vault", "Hacienda", "Protocol", "Red Card"],
-            "Search and Destroy": ["Skyline", "Red Card", "Hacienda", "Protocol", "Vault"],
+            "Search and Destroy": ["Rewind", "Red Card", "Hacienda", "Protocol", "Dealership"],
             "Control": ["Hacienda", "Protocol", "Vault"]
         }
         self.draft_results = {

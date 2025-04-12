@@ -3,7 +3,7 @@ import random
 def generate_cdl_map_set():
     # Define the map pool for each mode
     hardpoint_maps = ["Skyline", "Vault", "Hacienda", "Protocol", "Red Card"]
-    snd_maps = ["Skyline", "Red Card", "Hacienda", "Protocol", "Vault"]
+    snd_maps = ["Rewind", "Red Card", "Hacienda", "Protocol", "Dealership"]
     control_maps = ["Hacienda", "Protocol", "Vault"]
 
     # Initialize an empty map set

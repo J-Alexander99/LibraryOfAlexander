@@ -36,7 +36,7 @@ def cdl_map_draft():
 
     # Map pools
     hardpoint_maps = ["Skyline", "Vault", "Hacienda", "Protocol", "Red Card"]
-    snd_maps = ["Skyline", "Red Card", "Hacienda", "Protocol", "Vault"]
+    snd_maps = ["Rewind", "Red Card", "Hacienda", "Protocol", "Dealership"]
     control_maps = ["Hacienda", "Protocol", "Vault"]
 
     # Map 1 and Map 4 (Hardpoint)
