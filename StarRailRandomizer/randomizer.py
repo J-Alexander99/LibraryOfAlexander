@@ -7,12 +7,12 @@ from PIL import Image, ImageTk  # Import Pillow modules
 
 # Character pool and competitive teams
 characters = [
-    "Raiden", "Argenti", "Aventurine", "Bailu", "Black Swan", "Blade", "Boothill", 
+    "Raiden", "Aglaea", "Argenti", "Aventurine", "Bailu", "Black Swan", "Blade", "Boothill", 
     "Bronya", "Clara", "Dan Heng - Imbibitor Lunae", "Dr Ratio", "Feixiao", 
     "Firefly", "Fu Xuan", "Gepard", "Himeko", "Huohuo", "Jade", "Jiaoqiu", 
     "Jing Yuan", "Jingliu", "Kafka", "Lingsha", "Luocha", "Rappa", "Robin", 
     "Ruan Mei", "Seele", "Silver Wolf", "Sparkle", "Topaz", 
-    "Trailblazer Fire", "Trailblazer Imaginary", "Trailblazer Physical", 
+    "Trailblazer Fire", "Trailblazer Imaginary", "Trailblazer Physical", "Trailblazer Ice", 
     "Welt", "Yanqing", "Yunli", "Arlan", "Asta", "Dan Heng", "Gallagher", 
     "Guinaifen", "Hanya", "Herta", "Hook", "Luka", "Lynx", "March 7th", 
     "March 7th Imaginary", "Misha", "Moze", "Natasha", "Pela", "Qingque", 
@@ -32,6 +32,18 @@ competitive_teams = [
     ["Raiden", "Jiaoqiu", "Pela", "Fu Xuan"],
     ["Raiden", "Pela", "Silver Wolf", "Fu Xuan"],
     ["Raiden", "Silver Wolf", "Sparkle", "Fu Xuan"],
+
+    #Aglaea
+    ["Aglaea","Robin","Sunday","Huohuo"],
+    ["Aglaea","Trailblazer Ice","Sunday","Huohuo"],
+    ["Aglaea","Trialblazer Ice","Robin","Huohuo"],
+    ["Aglaea","Robin","Sunday","Fu Xuan"],
+    ["Aglaea","Robin","Sunday","Aventurine"],
+    ["Aglaea","Robin","Bronya","Sunday"],
+    ["Aglaea","Robin","Sunday","Gallagher"],
+    ["Aglaea","Robin","Sunday","Luocha"],
+    ["Aglaea","Robin","Sunday","Lingsha"],
+    ["Aglaea","Trailblaizer Ice","Sunday","Fu Xuan"],
 
     #Argenti
     ["Argenti", "Robin", "Tingyun", "Gallagher"],
@@ -431,6 +443,21 @@ competitive_teams = [
     ["Feixiao", "Moze", "Topaz", "Aventurine"],
     ["Feixiao", "Moze", "March 7th Imaginary", "Aventurine"],
 
+    #Mydei
+    ["Mydei","Sunday","Tribbie","Huohuo"],
+    ["Mydei","Sunday","Tribbie","Gallagher"],
+    ["Mydei","Sunday","Tribbie","Luocha"],
+    ["Mydei","Sparkle","Ruan Mei","Huohuo"],
+    ["Mydei","Sparkle","Ruan Mei","Gallagher"],
+    ["Mydei","Sparkle","Ruan Mei","Luocha"],
+    ["Mydei","Sparkle","Jiaoqiu","Huohuo"],
+    ["Mydei","Sparkle","Jiaoqiu","Gallagher"],
+    ["Mydei","Sparkle","Jiaoqiu","Luocha"],
+    ["Mydei","Trailblazer Ice","Pela","Huohuo"],
+    ["Mydei","Trailblazer Ice","Pela","Gallagher"],
+    ["Mydei","Trailblazer Ice","Pela","Luocha"],
+    ["Mydei","Trailblazer Ice","Tribbie","Sunday"],
+
     #Natasha
     ["Firefly", "Trailblazer Imaginary", "Ruan Mei", "Natasha"],
     ["Kafka", "Pela", "Ruan Mei", "Natasha"],
@@ -644,6 +671,27 @@ competitive_teams = [
     ["The Herta", "Serval", "Trailblazer Ice", "Gallagher"],
     ["Raiden", "Jiaoqiu", "Trailblazer Ice", "Aventurine"],
     ["Yunli", "Robin", "Trailblazer Ice", "Huo Huo"],
+
+    #Tribbie
+    ["The Herta","Jade","Tribbie","Lingsha"],
+    ["The Herta","Serval","Tribbie","gallagher"],
+    ["Aglaea","Sunday","Tribbie","Huohuo"],
+    ["Raiden","Jiaqiu","Tribbie","Aventurine"],
+    ["Jing Yuan","Sunday","Tribbie","Huohuo"],
+    ["Yunli","Sunday","Tribbie","Huohuo"],
+    ["The Herta","Herta","Tribbie","Aventurine"],
+    ["The Herta","Jade","Tribbie","Aventurine"],
+    ["The Herta","Herta","Tribbie","Aventurine"],
+    ["The Herta","Herta","Tribbie","Huoho"],
+    ["The Hurta","Herta","Tribbie","Fu Xuan"],
+    ["The Herta","Serval","Tribbie","Lingsha"],
+    ["The Herta","Serval","Tribbie","Aventurine"],
+    ["The Herta","Serval","Tribbie","Huohuo"],
+    ["The Herta","Herta","Trailblazer Ice","Tribbie"],
+
+
+
+
 
 
     #Welt
