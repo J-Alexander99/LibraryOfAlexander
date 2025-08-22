@@ -46,6 +46,12 @@ competitive_teams = [
     ["Anaxa", "The Herta", "Tribbie", "Lingsha"],
     
     #Archer
+    ["Archer", "Sparkle", "Cipher", "Huohuo"],
+    ["Archer", "Sparkle", "Cipher", "Gallagher"],
+    ["Archer", "Sparkle", "Tribbie", "Gallagher"],
+    ["Archer", "Sparkle", "Silver Wolf", "Gallagher"],
+    ["Archer", "Hanya", "Pela", "Gallagher"],
+    ["Archer", "Sparkle", "Sunday", "Fu Xuan"],
 
 
     #Aglaea
@@ -375,6 +381,30 @@ competitive_teams = [
     ["Castorice", "Trailblazer Ice" "Sunday", "Hyacine"],
 
     #Hysilens
+    ["Hysilens", "Kafka", "Black Swan", "Huohuo"],
+    ["Hysilens", "Kafka", "Black Swan", "Gallagher"],
+    ["Hysilens", "Kafka", "Black Swan", "Aventurine"],
+    ["Hysilens", "Kafka", "Black Swan", "Hyacine"],
+    ["Hysilens", "Kafka", "Robin", "Huohuo"],
+    ["Hysilens", "Kafka", "Robin", "Gallagher"],
+    ["Hysilens", "Kafka", "Robin", "Aventurine"],
+    ["Hysilens", "Kafka", "Robin", "Hyacine"],
+    ["Hysilens", "Kafka", "Tribbie", "Huohuo"],
+    ["Hysilens", "Kafka", "Tribbie", "Gallagher"],
+    ["Hysilens", "Kafka", "Tribbie", "Aventurine"],
+    ["Hysilens", "Kafka", "Tribbie", "Hyacine"],
+    ["Hysilens", "Kafka", "Black Swan", "Huohuo"],
+    ["Hysilens", "Kafka", "Black Swan", "Gallagher"],
+    ["Hysilens", "Kafka", "Black Swan", "Aventurine"],
+    ["Hysilens", "Kafka", "Black Swan", "Hyacine"],
+    ["Hysilens", "Kafka", "Robin", "Huohuo"],
+    ["Hysilens", "Kafka", "Robin", "Gallagher"],
+    ["Hysilens", "Kafka", "Robin", "Aventurine"],
+    ["Hysilens", "Kafka", "Robin", "Hyacine"],
+    ["Hysilens", "Kafka", "Tribbie", "Huohuo"],
+    ["Hysilens", "Kafka", "Tribbie", "Gallagher"],
+    ["Hysilens", "Kafka", "Tribbie", "Aventurine"],
+    ["Hysilens", "Kafka", "Tribbie", "Hyacine"],
     
     #Jade
     ["Jade", "Feixiao", "Robin", "Aventurine"],
@@ -547,8 +577,16 @@ competitive_teams = [
     ["Raiden", "Black Swan", "Pela", "Aventurine"],
     ["Raiden", "Jiaoqiu", "Pela", "Huohuo"],
     
-    #HI KEVIN (What about the second one Onoki )
-    
+    #HI KEVIN (What about the second one Onoki)
+    ["Kevin", "Bronya", "Trailblazer Ice", "Ruan Mei"],
+    ["Kevin", "Sunday", "Aventurine", "Tribbie"],
+    ["Kevin", "Sunday", "Bronya", "Huohuo"],
+    ["Kevin", "Sunday", "Bronya", "Sparkle"],
+    ["Kevin", "Sunday", "Bronya", "Cipher"],
+    ["Kevin", "Sunday", "Bronya", "Robin"],
+    ["Kevin", "Sunday", "Aventurine", "Tingyun"],
+    ["Kevin", "Trailblazer Ice", "Tingyun", "Lynx"],
+    ["Kevin", "Bronya", "Tingyun", "Lynx"],
 
     #Qinque
     ["Qingque", "Silver Wolf", "Sparkle", "Fu Xuan"],
@@ -599,7 +637,16 @@ competitive_teams = [
     ["Firefly", "Trailblazer Imaginary", "Ruan Mei", "Aventurine"],
     
     #Saber
-    
+    ["Saber", "Robin", "Sunday", "Huohuo"],
+    ["Saber", "Robin", "Sunday", "Gallagher"],
+    ["Saber", "Robin", "Sunday", "Aventurine"],
+    ["Saber", "Sunday", "Tribbie", "Hyacine"],
+    ["Saber", "Ruan Mei", "Sunday", "Huohuo"],
+    ["Saber", "Sunday", "Tribbie", "Huohuo"],
+    ["Saber", "Trailblazer Ice", "Sunday", "Huohuo"],
+    ["Saber", "Bronya", "Robin", "Huohuo"],
+    ["Saber", "Robin", "Sunday", "Hyacine"],
+    ["Saber", "Trailblazer Ice", "Robin", "Huohuo"],
 
     #Sampo
     ["Kafka", "Black Swan", "Sampo", "Huohuo"],
