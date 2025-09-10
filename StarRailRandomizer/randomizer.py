@@ -172,7 +172,19 @@ competitive_teams = [
     ["Castorice", "Mydei", "Tribbie", "Luocha"],
     ["Castorice", "Pela", "Trailblazer Ice", "Gallagher"],
     
-    #Cerdra
+    #Cerydra
+    ["Kevin","Bronya","Cerydra","Sunday"],
+    ["Kevin","Bronya","Cerydra","Trailblazer Ice"],
+    ["Kevin","Cerydra","Trailblazer Ice","Sunday"],
+    ["Kevin","Cerydra","Sunday","Tribbie"],
+    ["Anaxa","Cerydra","Sunday","Tribbie"],
+    ["Kevin","Cerydra","Robin","Sunday"],
+    ["Kevin","Cerydra","Ruan Mei","Sunday"],
+    ["Kevin","Cerydra","Sunday","Huohuo"],
+    ["Kevin","Cerydra","Sparkle","Sunday"],
+    ["Anaxa","Cerydra","Robin","Sunday"],
+
+
     
     #Cipher
     ["Cipher", "Dr Ratio", "Pela", "Lynx"],
