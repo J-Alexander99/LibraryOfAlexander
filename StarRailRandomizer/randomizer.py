@@ -531,6 +531,19 @@ competitive_teams = [
     ["Raiden", "Jiaoqiu", "Sparkle", "March 7th"],
     ["Yunli", "Topaz", "Robin", "March 7th"],
     ["Black Swan", "Serval", "Tingyun", "March 7th"],
+    
+    #March 7th Evernight
+    ["Evernight", "Castorice", "Tribbie", "Hyacine"],
+    ["Evernight", "Castorice", "Trailblazer Ice", "Hyacine"],
+    ["Evernight", "Trailblazer Ice", "Tribbie", "Hyacine"],
+    ["Evernight", "Trailblazer Ice", "Ruan Mei", "Hyacine"],
+    ["Evernight", "Trailblazer Ice", "Cipher", "Hyacine"],
+    ["Evernight", "Trailblazer Ice", "Tribbie", "Gallagher"],
+    ["Evernight", "Trailblazer Ice", "Cipher", "Gallagher"],
+    ["Evernight", "Trailblazer Ice", "Ruan Mei", "Gallagher"],
+    ["Evernight", "Trailblazer Ice", "Tribbie", "Huohuo"],
+    ["Evernight", "Trailblazer Ice", "Cipher", "Huohuo"],
+    ["Evernight", "Trailblazer Ice", "Ruan Mei", "Huohuo"],
 
     #March 7th Imaginary
     ["Feixiao", "March 7th Imaginary", "Robin", "Aventurine"],
