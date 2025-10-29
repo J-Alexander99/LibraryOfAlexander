@@ -24,6 +24,7 @@ class HSRAccurateTierScraper:
     TIER_RATINGS = {
         'T0': 10.0,
         'T0.5': 9.0,
+        'T1': 8.0,
         'T1.5': 7.0,
         'T2': 6.0,
         'T2.5': 5.0,
