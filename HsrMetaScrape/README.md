@@ -50,25 +50,26 @@ Required packages:
 ### Quick Start
 
 ```bash
-python final_scraper.py
+python accurate_scraper.py
 ```
 
 This will:
 1. Fetch the latest tier list from Prydwen.gg
-2. Extract all character ratings
-3. Generate `hsr_tier_ratings_final.json` and `hsr_tier_ratings_final.csv`
+2. Extract all character ratings using div class analysis
+3. Generate `hsr_tier_ratings_accurate.json` and `hsr_tier_ratings_accurate.csv`
 
 ### Output Files
 
-#### CSV Format (`hsr_tier_ratings_final.csv`)
+#### CSV Format (`hsr_tier_ratings_accurate.csv`)
 ```csv
 Character,Tier,Rating (1-10),Role,URL
 Acheron,T1,8.0,DPS,https://www.prydwen.gg/star-rail/characters/acheron
-Aglaea,T0,10.0,DPS,https://www.prydwen.gg/star-rail/characters/aglaea
+Aglaea,T0.5,9.0,DPS,https://www.prydwen.gg/star-rail/characters/aglaea
+Anaxa,T0,10.0,DPS,https://www.prydwen.gg/star-rail/characters/anaxa
 ...
 ```
 
-#### JSON Format (`hsr_tier_ratings_final.json`)
+#### JSON Format (`hsr_tier_ratings_accurate.json`)
 ```json
 {
   "timestamp": "2025-10-29T...",
@@ -89,17 +90,17 @@ Aglaea,T0,10.0,DPS,https://www.prydwen.gg/star-rail/characters/aglaea
 ### Programmatic Usage
 
 ```python
-from final_scraper import HSRTierTextScraper
+from accurate_scraper import HSRAccurateTierScraper
 
-scraper = HSRTierTextScraper()
+scraper = HSRAccurateTierScraper()
 
 # Fetch and parse
 html = scraper.fetch_page()
-results = scraper.parse_tier_list_text(html)
+results = scraper.parse_tier_list(html)
 
 # Access character data
 for char_name, info in results.items():
-    print(f"{char_name}: {info['rating']}/10 ({info['tier']})")
+    print(f"{char_name}: {info['rating']}/10 ({info['tier']}) - {info['role']}")
 
 # Export
 scraper.export_to_json(results, "my_ratings.json")
@@ -111,17 +112,17 @@ scraper.export_to_csv(results, "my_ratings.csv")
 ⚠️ **Important Notes:**
 
 1. **Single Mode Only**: Currently scrapes only **Memory of Chaos (MoC)** ratings
-   - Pure Fiction (PF) and Apocalyptic Shadow (AS) require different approach
-   - The website uses JavaScript tabs to switch between modes
-   - Future enhancement: Use Selenium to click tabs and scrape all 3 modes
+   - Pure Fiction (PF) and Apocalyptic Shadow (AS) would require JavaScript interaction
+   - The website uses tabs to switch between modes
+   - Future enhancement: Use Selenium to automate tab clicks
 
 2. **Static Snapshot**: Ratings are a point-in-time snapshot
    - Tier lists update regularly (check the timestamp in output)
    - Re-run the scraper to get latest data
 
-3. **Character Names**: Some characters have variants (e.g., "March 7th • Evernight")
-   - The scraper handles most variations
-   - URL slugs are used as fallback for clean names
+3. **Accuracy**: Uses div class structure for high accuracy
+   - Character tiers are determined by `custom-tier tier-X` div classes
+   - Character names extracted from URL slugs for consistency
 
 ## Future Enhancements
 
@@ -143,14 +144,13 @@ scraper.export_to_csv(results, "my_ratings.csv")
 
 ```
 HsrMetaScrape/
-├── final_scraper.py           # Main working scraper
-├── requirements.txt           # Python dependencies
-├── research_notes.md         # Initial research documentation
-├── scraper_prototype.py      # Early prototype (deprecated)
-├── tier_scraper.py          # Selenium-based attempt (WIP)
-├── debug_*.py               # Debug/analysis scripts
-├── hsr_tier_ratings_final.csv   # Output: CSV format
-└── hsr_tier_ratings_final.json  # Output: JSON format
+├── accurate_scraper.py              # ⭐ Main scraper (div-based, accurate)
+├── requirements.txt                 # Python dependencies
+├── README.md                        # This file
+├── SOLUTION.md                      # Technical documentation
+├── research_notes.md               # Initial research notes
+├── hsr_tier_ratings_accurate.csv   # Output: CSV format
+└── hsr_tier_ratings_accurate.json  # Output: JSON format
 ```
 
 ## Ethical Considerations
@@ -169,14 +169,16 @@ Example: Update character ratings in bulk
 import csv
 
 # Read the scraped data
-with open('hsr_tier_ratings_final.csv', 'r', encoding='utf-8') as f:
+with open('hsr_tier_ratings_accurate.csv', 'r', encoding='utf-8') as f:
     reader = csv.DictReader(f)
     for row in reader:
         char_name = row['Character']
         rating = float(row['Rating (1-10)'])
+        tier = row['Tier']
+        role = row['Role']
         
         # Update your app's database
-        update_character_rating(char_name, 'moc', rating)
+        update_character_rating(char_name, 'moc', rating, tier, role)
 ```
 
 ## Troubleshooting
@@ -184,15 +186,15 @@ with open('hsr_tier_ratings_final.csv', 'r', encoding='utf-8') as f:
 ### No data extracted
 - Check your internet connection
 - Verify Prydwen.gg is accessible
-- The website structure may have changed (check HTML)
+- The website structure may have changed - check if div classes like `custom-tier tier-0` still exist
 
 ### Missing characters
 - Some characters may not be rated yet
 - Check the website manually to confirm
 
-### Incorrect names
-- Check the `debug_links.py` script to see raw data
-- May need to update the name cleaning logic
+### Different tier counts than expected
+- The scraper uses the div class structure (`tier-0`, `tier-05`, etc.)
+- Verify the HTML structure hasn't changed using browser dev tools
 
 ## Credits
 
