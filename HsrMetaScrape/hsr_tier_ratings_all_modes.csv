@@ -17,7 +17,8 @@ MoC,Memory of Chaos,Cerydra,T0,10.0,SUPPORT,/star-rail/characters/cerydra
 MoC,Memory of Chaos,Cipher,T0.5,9.0,SUPPORT,/star-rail/characters/cipher
 MoC,Memory of Chaos,Clara,T3,4.0,DPS,/star-rail/characters/clara
 MoC,Memory of Chaos,Dan Heng,T5,1.0,DPS,/star-rail/characters/dan-heng
-MoC,Memory of Chaos,Dan Heng • Imbibitor Lunae,T0,10.0,SUSTAIN,/star-rail/characters/dan-heng-permansor-terrae
+MoC,Memory of Chaos,Dan Heng • Imbibitor Lunae,T4,2.0,DPS,/star-rail/characters/imbibitor-lunae
+MoC,Memory of Chaos,Dan Heng • Permansor Terrae,T0,10.0,SUSTAIN,/star-rail/characters/dan-heng-permansor-terrae
 MoC,Memory of Chaos,Dr. Ratio,T4,2.0,DPS,/star-rail/characters/dr-ratio
 MoC,Memory of Chaos,Feixiao,T1,8.0,DPS,/star-rail/characters/feixiao
 MoC,Memory of Chaos,Firefly,T1.5,7.0,DPS,/star-rail/characters/firefly
@@ -94,7 +95,8 @@ PF,Pure Fiction,Cerydra,T0.5,9.0,SUPPORT,/star-rail/characters/cerydra
 PF,Pure Fiction,Cipher,T0.5,9.0,SUPPORT,/star-rail/characters/cipher
 PF,Pure Fiction,Clara,T3,4.0,DPS,/star-rail/characters/clara
 PF,Pure Fiction,Dan Heng,T5,1.0,DPS,/star-rail/characters/dan-heng
-PF,Pure Fiction,Dan Heng • Imbibitor Lunae,T0.5,9.0,SUSTAIN,/star-rail/characters/dan-heng-permansor-terrae
+PF,Pure Fiction,Dan Heng • Imbibitor Lunae,T5,1.0,DPS,/star-rail/characters/imbibitor-lunae
+PF,Pure Fiction,Dan Heng • Permansor Terrae,T0.5,9.0,SUSTAIN,/star-rail/characters/dan-heng-permansor-terrae
 PF,Pure Fiction,Dr. Ratio,T5,1.0,DPS,/star-rail/characters/dr-ratio
 PF,Pure Fiction,Feixiao,T3,4.0,DPS,/star-rail/characters/feixiao
 PF,Pure Fiction,Firefly,T3,4.0,DPS,/star-rail/characters/firefly
@@ -171,7 +173,8 @@ AS,Apocalyptic Shadow,Cerydra,T0,10.0,SUPPORT,/star-rail/characters/cerydra
 AS,Apocalyptic Shadow,Cipher,T0.5,9.0,SUPPORT,/star-rail/characters/cipher
 AS,Apocalyptic Shadow,Clara,T4,2.0,DPS,/star-rail/characters/clara
 AS,Apocalyptic Shadow,Dan Heng,T5,1.0,DPS,/star-rail/characters/dan-heng
-AS,Apocalyptic Shadow,Dan Heng • Imbibitor Lunae,T0,10.0,SUSTAIN,/star-rail/characters/dan-heng-permansor-terrae
+AS,Apocalyptic Shadow,Dan Heng • Imbibitor Lunae,T4,2.0,DPS,/star-rail/characters/imbibitor-lunae
+AS,Apocalyptic Shadow,Dan Heng • Permansor Terrae,T0,10.0,SUSTAIN,/star-rail/characters/dan-heng-permansor-terrae
 AS,Apocalyptic Shadow,Dr. Ratio,T3,4.0,DPS,/star-rail/characters/dr-ratio
 AS,Apocalyptic Shadow,Feixiao,T0.5,9.0,DPS,/star-rail/characters/feixiao
 AS,Apocalyptic Shadow,Firefly,T1,8.0,DPS,/star-rail/characters/firefly

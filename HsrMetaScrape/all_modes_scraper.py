@@ -84,7 +84,7 @@ class HSRAccurateTierScraper:
         special_cases = {
             'march-7th-swordmaster': 'March 7th (Swordmaster)',
             'march-7th-evernight': 'March 7th (Evernight)',
-            'dan-heng-permansor-terrae': 'Dan Heng • Imbibitor Lunae',
+            'dan-heng-permansor-terrae': 'Dan Heng • Permansor Terrae',
             'imbibitor-lunae': 'Dan Heng • Imbibitor Lunae',
             'trailblazer-remembrance': 'Trailblazer (Remembrance)',
             'trailblazer-harmony': 'Trailblazer (Harmony)',

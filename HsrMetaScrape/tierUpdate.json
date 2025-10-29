@@ -1,6 +1,6 @@
 {
   "generated_at": "2025-10-29",
-  "total_characters": 77,
+  "total_characters": 78,
   "characters": [
     {
       "name": "Castorice",
@@ -80,7 +80,7 @@
       "total_rating": 29.0
     },
     {
-      "name": "Dan Heng • Imbibitor Lunae",
+      "name": "Dan Heng • Permansor Terrae",
       "MoC_rating": 10.0,
       "PF_rating": 9.0,
       "AS_rating": 10.0,
@@ -428,6 +428,13 @@
       "PF_rating": 2.0,
       "AS_rating": 2.0,
       "total_rating": 6.0
+    },
+    {
+      "name": "Dan Heng • Imbibitor Lunae",
+      "MoC_rating": 2.0,
+      "PF_rating": 1.0,
+      "AS_rating": 2.0,
+      "total_rating": 5.0
     },
     {
       "name": "Welt",

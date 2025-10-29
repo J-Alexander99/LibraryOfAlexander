@@ -68,7 +68,7 @@
         "role": "SUPPORT",
         "url": "/star-rail/characters/tribbie"
       },
-      "Dan Heng • Imbibitor Lunae": {
+      "Dan Heng • Permansor Terrae": {
         "tier": "T0",
         "rating": 10.0,
         "role": "SUSTAIN",
@@ -338,6 +338,12 @@
         "role": "DPS",
         "url": "/star-rail/characters/dr-ratio"
       },
+      "Dan Heng • Imbibitor Lunae": {
+        "tier": "T4",
+        "rating": 2.0,
+        "role": "DPS",
+        "url": "/star-rail/characters/imbibitor-lunae"
+      },
       "Seele": {
         "tier": "T4",
         "rating": 2.0,
@@ -465,7 +471,7 @@
         "url": "/star-rail/characters/trailblazer-preservation"
       }
     },
-    "count": 77
+    "count": 78
   },
   "PF": {
     "mode": "Pure Fiction",
@@ -584,7 +590,7 @@
         "role": "SUSTAIN",
         "url": "/star-rail/characters/aventurine"
       },
-      "Dan Heng • Imbibitor Lunae": {
+      "Dan Heng • Permansor Terrae": {
         "tier": "T0.5",
         "rating": 9.0,
         "role": "SUSTAIN",
@@ -836,6 +842,12 @@
         "role": "DPS",
         "url": "/star-rail/characters/hook"
       },
+      "Dan Heng • Imbibitor Lunae": {
+        "tier": "T5",
+        "rating": 1.0,
+        "role": "DPS",
+        "url": "/star-rail/characters/imbibitor-lunae"
+      },
       "Luka": {
         "tier": "T5",
         "rating": 1.0,
@@ -933,7 +945,7 @@
         "url": "/star-rail/characters/trailblazer-preservation"
       }
     },
-    "count": 77
+    "count": 78
   },
   "AS": {
     "mode": "Apocalyptic Shadow",
@@ -998,7 +1010,7 @@
         "role": "SUPPORT",
         "url": "/star-rail/characters/tribbie"
       },
-      "Dan Heng • Imbibitor Lunae": {
+      "Dan Heng • Permansor Terrae": {
         "tier": "T0",
         "rating": 10.0,
         "role": "SUSTAIN",
@@ -1292,6 +1304,12 @@
         "role": "DPS",
         "url": "/star-rail/characters/clara"
       },
+      "Dan Heng • Imbibitor Lunae": {
+        "tier": "T4",
+        "rating": 2.0,
+        "role": "DPS",
+        "url": "/star-rail/characters/imbibitor-lunae"
+      },
       "Seele": {
         "tier": "T4",
         "rating": 2.0,
@@ -1401,6 +1419,6 @@
         "url": "/star-rail/characters/trailblazer-preservation"
       }
     },
-    "count": 77
+    "count": 78
   }
 }
