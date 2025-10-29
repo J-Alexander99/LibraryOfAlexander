@@ -1,0 +1,79 @@
+Character,Tier,Rating,Raw Text,URL
+Acheron,,,Acheron,/star-rail/characters/acheron
+Aglaea,,,Aglaea,/star-rail/characters/aglaea
+Anaxa,,,Anaxa,/star-rail/characters/anaxa
+Argenti,,,Argenti,/star-rail/characters/argenti
+Black Swan,,,Black Swan,/star-rail/characters/black-swan
+Blade,,,Blade,/star-rail/characters/blade
+Boothill,,,Boothill,/star-rail/characters/boothill
+Bronya,,,Bronya,/star-rail/characters/bronya
+Cerydra,,,Cerydra,/star-rail/characters/cerydra
+Cipher,,,Cipher,/star-rail/characters/cipher
+Dan Heng â¢ Permansor Terrae,,,Dan Heng â¢ Permansor Terrae,/star-rail/characters/dan-heng-permansor-terrae
+E0Advance,,,E0Advance,/star-rail/characters/saber
+"E0Advance,Break,SP-Unfriendly",,,"E0Advance,Break,SP-Unfriendly",/star-rail/characters/firefly
+"E0Advance,Buff",,,"E0Advance,Buff",/star-rail/characters/robin
+"E0Advance,Buff,Energy",,,"E0Advance,Buff,Energy",/star-rail/characters/sunday
+"E0Advance,Buff,SP-Friendly",,,"E0Advance,Buff,SP-Friendly",/star-rail/characters/sparkle
+"E0Advance,Buff,SP-Unfriendly",,,"E0Advance,Buff,SP-Unfriendly",/star-rail/characters/the-herta
+"E0Advance,Partner,SP-Friendly",,,"E0Advance,Partner,SP-Friendly",/star-rail/characters/aglaea
+"E0Advance,SP-Friendly",,,"E0Advance,SP-Friendly",/star-rail/characters/castorice
+E0Break,,,E0Break,/star-rail/characters/boothill
+"E0Break,Buff,Debuff,Delay",,,"E0Break,Buff,Debuff,Delay",/star-rail/characters/tingyun-fugue
+"E0Break,Buff,Delay",,,"E0Break,Buff,Delay",/star-rail/characters/ruan-mei
+"E0Break,Debuff",,,"E0Break,Debuff",/star-rail/characters/lingsha
+"E0Break,Partner,SP-Friendly",,,"E0Break,Partner,SP-Friendly",/star-rail/characters/rappa
+E0Buff,,,E0Buff,/star-rail/characters/tribbie
+"E0Buff,Energy",,,"E0Buff,Energy",/star-rail/characters/huohuo
+"E0Buff,Partner++",,,"E0Buff,Partner++",/star-rail/characters/cerydra
+"E0Buff,SP-Friendly",,,"E0Buff,SP-Friendly",/star-rail/characters/march-7th-evernight
+"E0Buff,SP-Friendly,Partner",,,"E0Buff,SP-Friendly,Partner",/star-rail/characters/march-7th-evernight
+"E0Buff,SP-Unfriendly",,,"E0Buff,SP-Unfriendly",/star-rail/characters/hyacine
+"E0DOT,Partner",,,"E0DOT,Partner",/star-rail/characters/kafka
+E0Debuff,,,E0Debuff,/star-rail/characters/anaxa
+"E0Debuff,DOT",,,"E0Debuff,DOT",/star-rail/characters/jiaoqiu
+"E0Debuff,DOT,Partner",,,"E0Debuff,DOT,Partner",/star-rail/characters/black-swan
+"E0Debuff,Delay",,,"E0Debuff,Delay",/star-rail/characters/welt
+"E0Debuff,Partner",,,"E0Debuff,Partner",/star-rail/characters/anaxa
+"E0Debuff,SP-Friendly",,,"E0Debuff,SP-Friendly",/star-rail/characters/cipher
+"E0DoT,Debuff,Partner++",,,"E0DoT,Debuff,Partner++",/star-rail/characters/hysilens
+"E0NEWBuff,SP-Friendly",,,"E0NEWBuff,SP-Friendly",/star-rail/characters/dan-heng-permansor-terrae
+E0Partner,,,E0Partner,/star-rail/characters/argenti
+"E0Partner,SP-Friendly",,,"E0Partner,SP-Friendly",/star-rail/characters/blade
+E0SP-Friendly,,,E0SP-Friendly,/star-rail/characters/mydei
+E0SP-Unfriendly,,,E0SP-Unfriendly,/star-rail/characters/imbibitor-lunae
+"E0SP-Unfriendly,Partner",,,"E0SP-Unfriendly,Partner",/star-rail/characters/archer
+"E6Advance,Break",,,"E6Advance,Break",/star-rail/characters/sushang
+"E6Advance,Break,Buff",,,"E6Advance,Break,Buff",/star-rail/characters/march-7th-swordmaster
+"E6Advance,Break,Debuff,SP-Friendly",,,"E6Advance,Break,Debuff,SP-Friendly",/star-rail/characters/gallagher
+"E6Advance,Buff",,,"E6Advance,Buff",/star-rail/characters/trailblazer-remembrance
+"E6Advance,Debuff",,,"E6Advance,Debuff",/star-rail/characters/dan-heng
+E6Break,,,E6Break,/star-rail/characters/xueyi
+"E6Break,Buff",,,"E6Break,Buff",/star-rail/characters/trailblazer-harmony
+"E6Break,Debuff",,,"E6Break,Debuff",/star-rail/characters/luka
+"E6Break,Debuff,DOT",,,"E6Break,Debuff,DOT",/star-rail/characters/sampo
+E6Buff,,,E6Buff,/star-rail/characters/asta
+"E6Buff,Energy",,,"E6Buff,Energy",/star-rail/characters/tingyun
+"E6DOT,Partner",,,"E6DOT,Partner",/star-rail/characters/serval
+E6Debuff,,,E6Debuff,/star-rail/characters/moze
+"E6Debuff,DOT",,,"E6Debuff,DOT",/star-rail/characters/guinaifen
+E6SP-Unfriendly,,,E6SP-Unfriendly,/star-rail/characters/qingque
+Firefly,,,Firefly,/star-rail/characters/firefly
+Herta,,,Herta,/star-rail/characters/herta
+Hysilens,,,Hysilens,/star-rail/characters/hysilens
+Jade,,,Jade,/star-rail/characters/jade
+Jing Yuan,,,Jing Yuan,/star-rail/characters/jing-yuan
+Jingliu,,,Jingliu,/star-rail/characters/jingliu
+Kafka,,,Kafka,/star-rail/characters/kafka
+March 7th â¢ Evernight,,,March 7th â¢ Evernight,/star-rail/characters/march-7th-evernight
+Mydei,,,Mydei,/star-rail/characters/mydei
+Phainon,,,Phainon,/star-rail/characters/phainon
+Rappa,,,Rappa,/star-rail/characters/rappa
+Serval,,,Serval,/star-rail/characters/serval
+Silver Wolf,,,Silver Wolf,/star-rail/characters/silver-wolf
+Sparkle,,,Sparkle,/star-rail/characters/sparkle
+The Herta,,,The Herta,/star-rail/characters/the-herta
+Tingyun,,,Tingyun,/star-rail/characters/tingyun
+Tingyun â¢ Fugue,,,Tingyun â¢ Fugue,/star-rail/characters/tingyun-fugue
+Trailblazer â¢ Harmony,,,Trailblazer â¢ Harmony,/star-rail/characters/trailblazer-harmony
+Tribbie,,,Tribbie,/star-rail/characters/tribbie

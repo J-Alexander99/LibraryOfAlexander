@@ -1,0 +1,487 @@
+{
+  "timestamp": "2025-10-29T03:34:57.291817",
+  "source": "https://www.prydwen.gg/star-rail/tier-list",
+  "tier_rating_scale": {
+    "T0": 10,
+    "T0.5": 9,
+    "T1": 8,
+    "T1.5": 7,
+    "T2": 6,
+    "T2.5": 5,
+    "T3": 4,
+    "T3.5": 3,
+    "T4": 2,
+    "T4.5": 1.5,
+    "T5": 1
+  },
+  "characters": {
+    "Dan Heng â¢ Permansor Terrae": {
+      "raw_text": "Dan Heng â¢ Permansor Terrae",
+      "url": "/star-rail/characters/dan-heng-permansor-terrae",
+      "tier": null,
+      "rating": null
+    },
+    "Hysilens": {
+      "raw_text": "Hysilens",
+      "url": "/star-rail/characters/hysilens",
+      "tier": null,
+      "rating": null
+    },
+    "Kafka": {
+      "raw_text": "Kafka",
+      "url": "/star-rail/characters/kafka",
+      "tier": null,
+      "rating": null
+    },
+    "Black Swan": {
+      "raw_text": "Black Swan",
+      "url": "/star-rail/characters/black-swan",
+      "tier": null,
+      "rating": null
+    },
+    "March 7th â¢ Evernight": {
+      "raw_text": "March 7th â¢ Evernight",
+      "url": "/star-rail/characters/march-7th-evernight",
+      "tier": null,
+      "rating": null
+    },
+    "Boothill": {
+      "raw_text": "Boothill",
+      "url": "/star-rail/characters/boothill",
+      "tier": null,
+      "rating": null
+    },
+    "Firefly": {
+      "raw_text": "Firefly",
+      "url": "/star-rail/characters/firefly",
+      "tier": null,
+      "rating": null
+    },
+    "Tribbie": {
+      "raw_text": "Tribbie",
+      "url": "/star-rail/characters/tribbie",
+      "tier": null,
+      "rating": null
+    },
+    "Mydei": {
+      "raw_text": "Mydei",
+      "url": "/star-rail/characters/mydei",
+      "tier": null,
+      "rating": null
+    },
+    "Argenti": {
+      "raw_text": "Argenti",
+      "url": "/star-rail/characters/argenti",
+      "tier": null,
+      "rating": null
+    },
+    "Jing Yuan": {
+      "raw_text": "Jing Yuan",
+      "url": "/star-rail/characters/jing-yuan",
+      "tier": null,
+      "rating": null
+    },
+    "Rappa": {
+      "raw_text": "Rappa",
+      "url": "/star-rail/characters/rappa",
+      "tier": null,
+      "rating": null
+    },
+    "Trailblazer â¢ Harmony": {
+      "raw_text": "Trailblazer â¢ Harmony",
+      "url": "/star-rail/characters/trailblazer-harmony",
+      "tier": null,
+      "rating": null
+    },
+    "Tingyun â¢ Fugue": {
+      "raw_text": "Tingyun â¢ Fugue",
+      "url": "/star-rail/characters/tingyun-fugue",
+      "tier": null,
+      "rating": null
+    },
+    "Serval": {
+      "raw_text": "Serval",
+      "url": "/star-rail/characters/serval",
+      "tier": null,
+      "rating": null
+    },
+    "Silver Wolf": {
+      "raw_text": "Silver Wolf",
+      "url": "/star-rail/characters/silver-wolf",
+      "tier": null,
+      "rating": null
+    },
+    "Cerydra": {
+      "raw_text": "Cerydra",
+      "url": "/star-rail/characters/cerydra",
+      "tier": null,
+      "rating": null
+    },
+    "Anaxa": {
+      "raw_text": "Anaxa",
+      "url": "/star-rail/characters/anaxa",
+      "tier": null,
+      "rating": null
+    },
+    "Phainon": {
+      "raw_text": "Phainon",
+      "url": "/star-rail/characters/phainon",
+      "tier": null,
+      "rating": null
+    },
+    "The Herta": {
+      "raw_text": "The Herta",
+      "url": "/star-rail/characters/the-herta",
+      "tier": null,
+      "rating": null
+    },
+    "Jingliu": {
+      "raw_text": "Jingliu",
+      "url": "/star-rail/characters/jingliu",
+      "tier": null,
+      "rating": null
+    },
+    "Acheron": {
+      "raw_text": "Acheron",
+      "url": "/star-rail/characters/acheron",
+      "tier": null,
+      "rating": null
+    },
+    "Blade": {
+      "raw_text": "Blade",
+      "url": "/star-rail/characters/blade",
+      "tier": null,
+      "rating": null
+    },
+    "Jade": {
+      "raw_text": "Jade",
+      "url": "/star-rail/characters/jade",
+      "tier": null,
+      "rating": null
+    },
+    "Herta": {
+      "raw_text": "Herta",
+      "url": "/star-rail/characters/herta",
+      "tier": null,
+      "rating": null
+    },
+    "Tingyun": {
+      "raw_text": "Tingyun",
+      "url": "/star-rail/characters/tingyun",
+      "tier": null,
+      "rating": null
+    },
+    "Aglaea": {
+      "raw_text": "Aglaea",
+      "url": "/star-rail/characters/aglaea",
+      "tier": null,
+      "rating": null
+    },
+    "Bronya": {
+      "raw_text": "Bronya",
+      "url": "/star-rail/characters/bronya",
+      "tier": null,
+      "rating": null
+    },
+    "Sparkle": {
+      "raw_text": "Sparkle",
+      "url": "/star-rail/characters/sparkle",
+      "tier": null,
+      "rating": null
+    },
+    "Cipher": {
+      "raw_text": "Cipher",
+      "url": "/star-rail/characters/cipher",
+      "tier": null,
+      "rating": null
+    },
+    "E0Debuff": {
+      "raw_text": "E0Debuff",
+      "url": "/star-rail/characters/anaxa",
+      "tier": null,
+      "rating": null
+    },
+    "E0SP-Unfriendly,Partner": {
+      "raw_text": "E0SP-Unfriendly,Partner",
+      "url": "/star-rail/characters/archer",
+      "tier": null,
+      "rating": null
+    },
+    "E0Advance,SP-Friendly": {
+      "raw_text": "E0Advance,SP-Friendly",
+      "url": "/star-rail/characters/castorice",
+      "tier": null,
+      "rating": null
+    },
+    "E0DoT,Debuff,Partner++": {
+      "raw_text": "E0DoT,Debuff,Partner++",
+      "url": "/star-rail/characters/hysilens",
+      "tier": null,
+      "rating": null
+    },
+    "E0Buff,SP-Friendly": {
+      "raw_text": "E0Buff,SP-Friendly",
+      "url": "/star-rail/characters/march-7th-evernight",
+      "tier": null,
+      "rating": null
+    },
+    "E0DOT,Partner": {
+      "raw_text": "E0DOT,Partner",
+      "url": "/star-rail/characters/kafka",
+      "tier": null,
+      "rating": null
+    },
+    "E0Buff,SP-Friendly,Partner": {
+      "raw_text": "E0Buff,SP-Friendly,Partner",
+      "url": "/star-rail/characters/march-7th-evernight",
+      "tier": null,
+      "rating": null
+    },
+    "E0Buff,Partner++": {
+      "raw_text": "E0Buff,Partner++",
+      "url": "/star-rail/characters/cerydra",
+      "tier": null,
+      "rating": null
+    },
+    "E0Advance,Buff,Energy": {
+      "raw_text": "E0Advance,Buff,Energy",
+      "url": "/star-rail/characters/sunday",
+      "tier": null,
+      "rating": null
+    },
+    "E6Advance,Buff": {
+      "raw_text": "E6Advance,Buff",
+      "url": "/star-rail/characters/trailblazer-remembrance",
+      "tier": null,
+      "rating": null
+    },
+    "E0Buff": {
+      "raw_text": "E0Buff",
+      "url": "/star-rail/characters/tribbie",
+      "tier": null,
+      "rating": null
+    },
+    "E0NEWBuff,SP-Friendly": {
+      "raw_text": "E0NEWBuff,SP-Friendly",
+      "url": "/star-rail/characters/dan-heng-permansor-terrae",
+      "tier": null,
+      "rating": null
+    },
+    "E0Buff,SP-Unfriendly": {
+      "raw_text": "E0Buff,SP-Unfriendly",
+      "url": "/star-rail/characters/hyacine",
+      "tier": null,
+      "rating": null
+    },
+    "E0Advance,Partner,SP-Friendly": {
+      "raw_text": "E0Advance,Partner,SP-Friendly",
+      "url": "/star-rail/characters/aglaea",
+      "tier": null,
+      "rating": null
+    },
+    "E0SP-Friendly": {
+      "raw_text": "E0SP-Friendly",
+      "url": "/star-rail/characters/mydei",
+      "tier": null,
+      "rating": null
+    },
+    "E0Advance": {
+      "raw_text": "E0Advance",
+      "url": "/star-rail/characters/saber",
+      "tier": null,
+      "rating": null
+    },
+    "E0Advance,Buff,SP-Unfriendly": {
+      "raw_text": "E0Advance,Buff,SP-Unfriendly",
+      "url": "/star-rail/characters/the-herta",
+      "tier": null,
+      "rating": null
+    },
+    "E0Debuff,Partner": {
+      "raw_text": "E0Debuff,Partner",
+      "url": "/star-rail/characters/anaxa",
+      "tier": null,
+      "rating": null
+    },
+    "E0Debuff,DOT,Partner": {
+      "raw_text": "E0Debuff,DOT,Partner",
+      "url": "/star-rail/characters/black-swan",
+      "tier": null,
+      "rating": null
+    },
+    "E0Debuff,SP-Friendly": {
+      "raw_text": "E0Debuff,SP-Friendly",
+      "url": "/star-rail/characters/cipher",
+      "tier": null,
+      "rating": null
+    },
+    "E0Advance,Buff": {
+      "raw_text": "E0Advance,Buff",
+      "url": "/star-rail/characters/robin",
+      "tier": null,
+      "rating": null
+    },
+    "E0Break,Buff,Delay": {
+      "raw_text": "E0Break,Buff,Delay",
+      "url": "/star-rail/characters/ruan-mei",
+      "tier": null,
+      "rating": null
+    },
+    "E0Advance,Buff,SP-Friendly": {
+      "raw_text": "E0Advance,Buff,SP-Friendly",
+      "url": "/star-rail/characters/sparkle",
+      "tier": null,
+      "rating": null
+    },
+    "E6Advance,Break,Debuff,SP-Friendly": {
+      "raw_text": "E6Advance,Break,Debuff,SP-Friendly",
+      "url": "/star-rail/characters/gallagher",
+      "tier": null,
+      "rating": null
+    },
+    "E0Buff,Energy": {
+      "raw_text": "E0Buff,Energy",
+      "url": "/star-rail/characters/huohuo",
+      "tier": null,
+      "rating": null
+    },
+    "E0Break,Debuff": {
+      "raw_text": "E0Break,Debuff",
+      "url": "/star-rail/characters/lingsha",
+      "tier": null,
+      "rating": null
+    },
+    "E0Partner,SP-Friendly": {
+      "raw_text": "E0Partner,SP-Friendly",
+      "url": "/star-rail/characters/blade",
+      "tier": null,
+      "rating": null
+    },
+    "E0Debuff,DOT": {
+      "raw_text": "E0Debuff,DOT",
+      "url": "/star-rail/characters/jiaoqiu",
+      "tier": null,
+      "rating": null
+    },
+    "E6Buff,Energy": {
+      "raw_text": "E6Buff,Energy",
+      "url": "/star-rail/characters/tingyun",
+      "tier": null,
+      "rating": null
+    },
+    "E0Advance,Break,SP-Unfriendly": {
+      "raw_text": "E0Advance,Break,SP-Unfriendly",
+      "url": "/star-rail/characters/firefly",
+      "tier": null,
+      "rating": null
+    },
+    "E0Break,Partner,SP-Friendly": {
+      "raw_text": "E0Break,Partner,SP-Friendly",
+      "url": "/star-rail/characters/rappa",
+      "tier": null,
+      "rating": null
+    },
+    "E0Partner": {
+      "raw_text": "E0Partner",
+      "url": "/star-rail/characters/argenti",
+      "tier": null,
+      "rating": null
+    },
+    "E6Advance,Break,Buff": {
+      "raw_text": "E6Advance,Break,Buff",
+      "url": "/star-rail/characters/march-7th-swordmaster",
+      "tier": null,
+      "rating": null
+    },
+    "E0Break,Buff,Debuff,Delay": {
+      "raw_text": "E0Break,Buff,Debuff,Delay",
+      "url": "/star-rail/characters/tingyun-fugue",
+      "tier": null,
+      "rating": null
+    },
+    "E0Break": {
+      "raw_text": "E0Break",
+      "url": "/star-rail/characters/boothill",
+      "tier": null,
+      "rating": null
+    },
+    "E6Debuff": {
+      "raw_text": "E6Debuff",
+      "url": "/star-rail/characters/moze",
+      "tier": null,
+      "rating": null
+    },
+    "E6DOT,Partner": {
+      "raw_text": "E6DOT,Partner",
+      "url": "/star-rail/characters/serval",
+      "tier": null,
+      "rating": null
+    },
+    "E6Break,Buff": {
+      "raw_text": "E6Break,Buff",
+      "url": "/star-rail/characters/trailblazer-harmony",
+      "tier": null,
+      "rating": null
+    },
+    "E0SP-Unfriendly": {
+      "raw_text": "E0SP-Unfriendly",
+      "url": "/star-rail/characters/imbibitor-lunae",
+      "tier": null,
+      "rating": null
+    },
+    "E6Buff": {
+      "raw_text": "E6Buff",
+      "url": "/star-rail/characters/asta",
+      "tier": null,
+      "rating": null
+    },
+    "E6Debuff,DOT": {
+      "raw_text": "E6Debuff,DOT",
+      "url": "/star-rail/characters/guinaifen",
+      "tier": null,
+      "rating": null
+    },
+    "E6Advance,Debuff": {
+      "raw_text": "E6Advance,Debuff",
+      "url": "/star-rail/characters/dan-heng",
+      "tier": null,
+      "rating": null
+    },
+    "E6Break,Debuff": {
+      "raw_text": "E6Break,Debuff",
+      "url": "/star-rail/characters/luka",
+      "tier": null,
+      "rating": null
+    },
+    "E6SP-Unfriendly": {
+      "raw_text": "E6SP-Unfriendly",
+      "url": "/star-rail/characters/qingque",
+      "tier": null,
+      "rating": null
+    },
+    "E6Advance,Break": {
+      "raw_text": "E6Advance,Break",
+      "url": "/star-rail/characters/sushang",
+      "tier": null,
+      "rating": null
+    },
+    "E6Break": {
+      "raw_text": "E6Break",
+      "url": "/star-rail/characters/xueyi",
+      "tier": null,
+      "rating": null
+    },
+    "E6Break,Debuff,DOT": {
+      "raw_text": "E6Break,Debuff,DOT",
+      "url": "/star-rail/characters/sampo",
+      "tier": null,
+      "rating": null
+    },
+    "E0Debuff,Delay": {
+      "raw_text": "E0Debuff,Delay",
+      "url": "/star-rail/characters/welt",
+      "tier": null,
+      "rating": null
+    }
+  }
+}
