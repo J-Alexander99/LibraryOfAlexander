@@ -1,0 +1,93 @@
+============================================================
+ELDEN RING RANDOMIZER - ITEM LOCATIONS
+============================================================
+
+
+Dectus Medallion (Left):
+------------------------------------------------------------
+  Dectus Medallion (Left) in Limgrave: In a chest at the top of a tower in Fort Haight. Replaces Dectus Medallion (Left).
+
+
+Dectus Medallion (Right):
+------------------------------------------------------------
+  Dectus Medallion (Right) in Ainsel River Downstream: Dropped by Dragonkin Soldier of Nokstella. Replaces Frozen Lightning Spear.
+
+
+Rold Medallion:
+------------------------------------------------------------
+  Rold Medallion in Siofra River: Sold by the Abandoned Merchant overlooking the Giant Miranda Flower. He can be found by ascending up wooden scaffolding near Worshippers' Woods and dropping down towards a short tunnel. Replaces Nomadic Warrior's Cookbook [18].
+
+
+Godrick's Great Rune:
+------------------------------------------------------------
+  Godrick's Great Rune in Academy of Raya Lucaria: On a robed corpse in the Raya Lucaria rooftop path, accessed by looping around from Debate Parlor by dropping down past the rubble-strewn stairs. Replaces Imbued Sword Key.
+
+
+Great Rune of the Unborn:
+------------------------------------------------------------
+  Great Rune of the Unborn in Bellum Highway: At the interesting statue in Bellum Church. Replaces Sacred Tear.
+
+
+Malenia's Great Rune:
+------------------------------------------------------------
+  Malenia's Great Rune in Altus Plateau: Dropped by Elemer of the Briar. Replaces Marais Executioner's Sword.
+
+
+Mohg's Great Rune:
+------------------------------------------------------------
+  Mohg's Great Rune in Stormveil Castle: Dropped by Godrick the Grafted. Replaces Godrick's Great Rune.
+
+
+Morgott's Great Rune:
+------------------------------------------------------------
+  Morgott's Great Rune in Liurnia: Under a Golden Seed tree near the Ravine-Veiled Village before Ruin-Strewn Precipice. Replaces Golden Seed.
+
+
+Radahn's Great Rune:
+------------------------------------------------------------
+  Radahn's Great Rune in Dragonbarrow: In a chest up the first ladder at Fort Faroth. Replaces Dectus Medallion (Right).
+
+
+Rykard's Great Rune:
+------------------------------------------------------------
+  Rykard's Great Rune in Dragonbarrow: Sold by the Isolated Merchant at Isolated Merchant's Shack. Replaces Note: Gateway.
+
+
+Talisman Pouch:
+------------------------------------------------------------
+  Talisman Pouch in Stormhill: Dropped by Margit the Fell Omen or Morgott the Omen King. Replaces Talisman Pouch.
+  Talisman Pouch in Liurnia Behind Caria Manor: Sold by Pidia. He can be found by dropping back down into Caria Manor off a cliffside from the Three Sisters. Replaces Glintstone Craftsman's Cookbook [7].
+  Talisman Pouch in Nokron, Eternal City: Dropped by Regal Ancestor Spirit. Replaces Remembrance of the Regal Ancestor.
+
+
+Blasphemous Blade:
+------------------------------------------------------------
+  Blasphemous Blade in Stormveil Castle: From Smouldering Corpse. Near Rampart Tower (Site of Grace) - 72.32 away in 3 o'clock direction, -30.78 height offset. Replaces Highland Axe.
+
+
+Rivers of Blood:
+------------------------------------------------------------
+  Rivers of Blood in Altus Plateau - Sage's Cave: From Chest. Near Sage's Cave (Site of Grace) - 24.41 away in 4 o'clock direction, -11.80 height offset. Replaces Lost Ashes of War.
+
+
+Moonveil:
+------------------------------------------------------------
+  Moonveil in Roundtable Hold: Sold by Finger Reader Enia after defeating Royal Knight Loretta. Replaces Royal Knight Helm.
+
+
+Dark Moon Greatsword:
+------------------------------------------------------------
+  Dark Moon Greatsword in Liurnia - Cliffbottom Catacombs: Dropped by Erdtree Burial Watchdog. Replaces Kaiden Sellsword Ashes.
+
+
+Ash of War: Carian Sovereignty:
+------------------------------------------------------------
+  Ash of War: Carian Sovereignty in Limgrave - Highroad Cave: From Corpse. Near Highroad Cave (Site of Grace) - 128.07 away in 12 o'clock direction, -77.52 height offset. Replaces Fire Grease 2x.
+
+
+Bloodhound's Fang:
+------------------------------------------------------------
+  Bloodhound's Fang in Scadu Altus: Given by a friendly Kindred of Rot outside the Castle Ensis southeast wall, following the cliffside west of the Ruined Forge of Starfall Past entrance, so long as Moore is alive and is not sad or upset at you. Replaces Glintslab Firefly 3x.
+
+============================================================
+Total items found: 17
