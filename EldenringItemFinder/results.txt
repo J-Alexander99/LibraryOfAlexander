@@ -11,6 +11,7 @@ Dectus Medallion (Left):
 Dectus Medallion (Right):
 ------------------------------------------------------------
   Dectus Medallion (Right) in Ainsel River Downstream: Dropped by Dragonkin Soldier of Nokstella. Replaces Frozen Lightning Spear.
+    → Enemy: Dragonkin Soldier of Nokstella is now: Crucible Spiritcaller Snail
 
 
 Rold Medallion:
@@ -31,11 +32,13 @@ Great Rune of the Unborn:
 Malenia's Great Rune:
 ------------------------------------------------------------
   Malenia's Great Rune in Altus Plateau: Dropped by Elemer of the Briar. Replaces Marais Executioner's Sword.
+    → Enemy: Elemer of the Briar is now: Dragonkin Soldier of Nokstella
 
 
 Mohg's Great Rune:
 ------------------------------------------------------------
   Mohg's Great Rune in Stormveil Castle: Dropped by Godrick the Grafted. Replaces Godrick's Great Rune.
+    → Enemy: Godrick the Grafted is now: Tree Sentinel
 
 
 Morgott's Great Rune:
@@ -58,6 +61,7 @@ Talisman Pouch:
   Talisman Pouch in Stormhill: Dropped by Margit the Fell Omen or Morgott the Omen King. Replaces Talisman Pouch.
   Talisman Pouch in Liurnia Behind Caria Manor: Sold by Pidia. He can be found by dropping back down into Caria Manor off a cliffside from the Three Sisters. Replaces Glintstone Craftsman's Cookbook [7].
   Talisman Pouch in Nokron, Eternal City: Dropped by Regal Ancestor Spirit. Replaces Remembrance of the Regal Ancestor.
+    → Enemy: Regal Ancestor Spirit is now: Demi-Human Chief Duo
 
 
 Blasphemous Blade:
@@ -78,6 +82,7 @@ Moonveil:
 Dark Moon Greatsword:
 ------------------------------------------------------------
   Dark Moon Greatsword in Liurnia - Cliffbottom Catacombs: Dropped by Erdtree Burial Watchdog. Replaces Kaiden Sellsword Ashes.
+    → Enemy: Erdtree Burial Watchdog is now: Wandering Noble
 
 
 Ash of War: Carian Sovereignty:
@@ -89,5 +94,10 @@ Bloodhound's Fang:
 ------------------------------------------------------------
   Bloodhound's Fang in Scadu Altus: Given by a friendly Kindred of Rot outside the Castle Ensis southeast wall, following the cliffside west of the Ruined Forge of Starfall Past entrance, so long as Moore is alive and is not sad or upset at you. Replaces Glintslab Firefly 3x.
 
+
+Shard of Alexander:
+------------------------------------------------------------
+  Shard of Alexander in Mt. Gelmir - Seethewater Terminus: From Corpse. Near Seethewater Terminus (Site of Grace) - 45.35 away in 9 o'clock direction, 17.88 height offset. Replaces Mushroom 5x.
+
 ============================================================
-Total items found: 17
+Total items found: 18
