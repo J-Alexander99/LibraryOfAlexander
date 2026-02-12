@@ -1,0 +1,15 @@
+# Core dependencies (always required)
+Pillow>=10.0.0
+matplotlib>=3.5.0
+
+# OCR options (install at least one)
+# Option 1: EasyOCR (Recommended - works out of the box)
+easyocr>=1.7.0
+
+# Option 2: Tesseract (Faster but requires system installation)
+# pytesseract>=0.3.10
+# Note: Also requires Tesseract-OCR to be installed on your system
+# Download from: https://github.com/tesseract-ocr/tesseract
+
+# Optional: for better image preprocessing
+# opencv-python>=4.8.0

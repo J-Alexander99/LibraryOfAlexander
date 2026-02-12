@@ -1,0 +1,387 @@
+{
+  "items": {
+    "Ankhorilling Kitchenware": {
+      "name": "Ankhorilling Kitchenware",
+      "category": "Unknown",
+      "added_date": "2026-02-12T05:48:26.836667"
+    },
+    "Musbeast Scrimshaw Dangles": {
+      "name": "Musbeast Scrimshaw Dangles",
+      "category": "Unknown",
+      "added_date": "2026-02-12T05:48:58.513520"
+    },
+    "Witchcraft Mining Drill": {
+      "name": "Witchcraft Mining Drill",
+      "category": "Unknown",
+      "added_date": "2026-02-12T05:49:09.788478"
+    },
+    "Aggeloi War Tins": {
+      "name": "Aggeloi War Tins",
+      "category": "Unknown",
+      "added_date": "2026-02-12T05:49:19.576455"
+    },
+    "Valley Hydroculture Fillets": {
+      "name": "Valley Hydroculture Fillets",
+      "category": "Unknown",
+      "added_date": "2026-02-12T05:49:38.410302"
+    },
+    "Unity Syrup": {
+      "name": "Unity Syrup",
+      "category": "Unknown",
+      "added_date": "2026-02-12T05:49:49.800488"
+    },
+    "Ses'qamam Knucklebones": {
+      "name": "Ses'qamam Knucklebones",
+      "category": "Unknown",
+      "added_date": "2026-02-12T05:50:07.397980"
+    },
+    "Originium Saplings": {
+      "name": "Originium Saplings",
+      "category": "Unknown",
+      "added_date": "2026-02-12T05:50:17.646416"
+    },
+    "Vigilant Pickaxes": {
+      "name": "Vigilant Pickaxes",
+      "category": "Unknown",
+      "added_date": "2026-02-12T05:50:32.395565"
+    },
+    "Astarron Crystals": {
+      "name": "Astarron Crystals",
+      "category": "Unknown",
+      "added_date": "2026-02-12T05:50:47.842383"
+    },
+    "Hard Noggin Helmets": {
+      "name": "Hard Noggin Helmets",
+      "category": "Unknown",
+      "added_date": "2026-02-12T05:51:02.451346"
+    },
+    "Scrap Toy Blocks": {
+      "name": "Scrap Toy Blocks",
+      "category": "Unknown",
+      "added_date": "2026-02-12T05:51:14.619604"
+    }
+  },
+  "price_history": {
+    "Ankhorilling Kitchenware": [
+      {
+        "date": "2026-02-12",
+        "prices": [
+          4552,
+          3113,
+          2937,
+          2667,
+          2574,
+          2089,
+          2026,
+          1707,
+          1702,
+          1668,
+          1637,
+          1600,
+          1573,
+          1568,
+          1324
+        ],
+        "timestamp": "2026-02-12T05:54:36.943889"
+      }
+    ],
+    "Musbeast Scrimshaw Dangles": [
+      {
+        "date": "2026-02-12",
+        "prices": [
+          2658,
+          2600,
+          2351,
+          2261,
+          2233,
+          2015,
+          1976,
+          1821,
+          1793,
+          1540,
+          1530,
+          1429,
+          1270,
+          1129,
+          884
+        ],
+        "timestamp": "2026-02-12T05:56:39.984854"
+      }
+    ],
+    "Witchcraft Mining Drill": [
+      {
+        "date": "2026-02-12",
+        "prices": [
+          3564,
+          300,
+          2894,
+          2600,
+          2400,
+          2313,
+          2243,
+          2002,
+          1866,
+          1833,
+          1800,
+          1510,
+          1476,
+          1116,
+          1003
+        ],
+        "timestamp": "2026-02-12T05:58:06.546140"
+      }
+    ],
+    "Aggeloi War Tins": [
+      {
+        "date": "2026-02-12",
+        "prices": [
+          4451,
+          3211,
+          2591,
+          2436,
+          2268,
+          2228,
+          2200,
+          2155,
+          1850,
+          1784,
+          1769,
+          1671,
+          1600,
+          1600,
+          1541
+        ],
+        "timestamp": "2026-02-12T05:58:54.999636"
+      }
+    ],
+    "Valley Hydroculture Fillets": [
+      {
+        "date": "2026-02-12",
+        "prices": [
+          3281,
+          2791,
+          2400,
+          2400,
+          2171,
+          2094,
+          1957,
+          1907,
+          1800,
+          1800,
+          1168,
+          1157,
+          954
+        ],
+        "timestamp": "2026-02-12T05:59:39.596349"
+      }
+    ],
+    "Unity Syrup": [
+      {
+        "date": "2026-02-12",
+        "prices": [
+          2857,
+          2575,
+          2157,
+          1984,
+          1869,
+          1634,
+          1425,
+          1368,
+          1305,
+          1244,
+          607
+        ],
+        "timestamp": "2026-02-12T06:00:27.380837"
+      }
+    ],
+    "Ses'qamam Knucklebones": [
+      {
+        "date": "2026-02-12",
+        "prices": [
+          4789,
+          3000,
+          2977,
+          2670,
+          2600,
+          2479,
+          2288,
+          2260,
+          1948,
+          1646,
+          1604,
+          1307,
+          1255,
+          1243
+        ],
+        "timestamp": "2026-02-12T06:01:01.672797"
+      }
+    ],
+    "Originium Saplings": [
+      {
+        "date": "2026-02-12",
+        "prices": [
+          3816,
+          2457,
+          2431,
+          2337,
+          2222,
+          2152,
+          2033,
+          1795,
+          1716,
+          1507,
+          1506,
+          1450,
+          1375,
+          1288
+        ],
+        "timestamp": "2026-02-12T06:01:39.841848"
+      }
+    ],
+    "Vigilant Pickaxes": [
+      {
+        "date": "2026-02-12",
+        "prices": [
+          5099,
+          3524,
+          3386,
+          3000,
+          2786,
+          2674,
+          2655,
+          2515,
+          2319,
+          2129,
+          1399,
+          1128
+        ],
+        "timestamp": "2026-02-12T06:02:18.642419"
+      }
+    ],
+    "Astarron Crystals": [
+      {
+        "date": "2026-02-12",
+        "prices": [
+          3766,
+          2344,
+          2343,
+          2214,
+          2041,
+          1992,
+          1971,
+          1929,
+          1920,
+          1911,
+          1772,
+          1735,
+          1600,
+          1446
+        ],
+        "timestamp": "2026-02-12T06:02:54.859935"
+      }
+    ],
+    "Hard Noggin Helmets": [
+      {
+        "date": "2026-02-12",
+        "prices": [
+          3141,
+          2745,
+          2722,
+          2459,
+          2234,
+          1952,
+          1945,
+          1800,
+          1600,
+          1579,
+          1358,
+          1341
+        ],
+        "timestamp": "2026-02-12T06:03:36.980223"
+      }
+    ],
+    "Scrap Toy Blocks": [
+      {
+        "date": "2026-02-12",
+        "prices": [
+          4399,
+          4166,
+          4074,
+          3450,
+          2740,
+          1906,
+          1784,
+          1669,
+          1612,
+          1600,
+          1542,
+          1496
+        ],
+        "timestamp": "2026-02-12T06:04:10.860098"
+      }
+    ]
+  },
+  "transactions": [],
+  "portfolio": {
+    "Ankhorilling Kitchenware": {
+      "owned": 0,
+      "average_cost": 0,
+      "total_invested": 0
+    },
+    "Musbeast Scrimshaw Dangles": {
+      "owned": 0,
+      "average_cost": 0,
+      "total_invested": 0
+    },
+    "Witchcraft Mining Drill": {
+      "owned": 0,
+      "average_cost": 0,
+      "total_invested": 0
+    },
+    "Aggeloi War Tins": {
+      "owned": 0,
+      "average_cost": 0,
+      "total_invested": 0
+    },
+    "Valley Hydroculture Fillets": {
+      "owned": 0,
+      "average_cost": 0,
+      "total_invested": 0
+    },
+    "Unity Syrup": {
+      "owned": 0,
+      "average_cost": 0,
+      "total_invested": 0
+    },
+    "Ses'qamam Knucklebones": {
+      "owned": 0,
+      "average_cost": 0,
+      "total_invested": 0
+    },
+    "Originium Saplings": {
+      "owned": 0,
+      "average_cost": 0,
+      "total_invested": 0
+    },
+    "Vigilant Pickaxes": {
+      "owned": 0,
+      "average_cost": 0,
+      "total_invested": 0
+    },
+    "Astarron Crystals": {
+      "owned": 0,
+      "average_cost": 0,
+      "total_invested": 0
+    },
+    "Hard Noggin Helmets": {
+      "owned": 0,
+      "average_cost": 0,
+      "total_invested": 0
+    },
+    "Scrap Toy Blocks": {
+      "owned": 0,
+      "average_cost": 0,
+      "total_invested": 0
+    }
+  }
+}
