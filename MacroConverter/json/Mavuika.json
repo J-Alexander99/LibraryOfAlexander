@@ -1,0 +1,131 @@
+{
+  "mode": 2,
+  "actions": [
+    {
+      "keyValue": "Mouse-Left",
+      "keyValueType": 2,
+      "type": 1,
+      "delay": 50
+    },
+    {
+      "keyValue": "Mouse-Left",
+      "keyValueType": 2,
+      "type": 0,
+      "delay": 320
+    },
+    {
+      "keyValue": "Mouse-Left",
+      "keyValueType": 2,
+      "type": 1,
+      "delay": 130
+    },
+    {
+      "keyValue": "Shift",
+      "keyValueType": 1,
+      "type": 1,
+      "delay": 50
+    },
+    {
+      "keyValue": "Mouse-Left",
+      "keyValueType": 2,
+      "type": 1,
+      "delay": 50
+    },
+    {
+      "keyValue": "Mouse-Left",
+      "keyValueType": 2,
+      "type": 1,
+      "delay": 50
+    },
+    {
+      "keyValue": "Mouse-Left",
+      "keyValueType": 2,
+      "type": 1,
+      "delay": 85
+    },
+    {
+      "keyValue": "Shift",
+      "keyValueType": 1,
+      "type": 1,
+      "delay": 50
+    },
+    {
+      "keyValue": "Mouse-Left",
+      "keyValueType": 2,
+      "type": 1,
+      "delay": 50
+    },
+    {
+      "keyValue": "Mouse-Left",
+      "keyValueType": 2,
+      "type": 1,
+      "delay": 50
+    },
+    {
+      "keyValue": "Mouse-Left",
+      "keyValueType": 2,
+      "type": 1,
+      "delay": 85
+    },
+    {
+      "keyValue": "Shift",
+      "keyValueType": 1,
+      "type": 1,
+      "delay": 50
+    },
+    {
+      "keyValue": "Mouse-Left",
+      "keyValueType": 2,
+      "type": 1,
+      "delay": 50
+    },
+    {
+      "keyValue": "Mouse-Left",
+      "keyValueType": 2,
+      "type": 1,
+      "delay": 50
+    },
+    {
+      "keyValue": "Mouse-Left",
+      "keyValueType": 2,
+      "type": 1,
+      "delay": 85
+    },
+    {
+      "keyValue": "Shift",
+      "keyValueType": 1,
+      "type": 1,
+      "delay": 50
+    },
+    {
+      "keyValue": "Mouse-Left",
+      "keyValueType": 2,
+      "type": 1,
+      "delay": 50
+    },
+    {
+      "keyValue": "Mouse-Left",
+      "keyValueType": 2,
+      "type": 1,
+      "delay": 50
+    },
+    {
+      "keyValue": "Mouse-Left",
+      "keyValueType": 2,
+      "type": 1,
+      "delay": 85
+    },
+    {
+      "keyValue": "Shift",
+      "keyValueType": 1,
+      "type": 1,
+      "delay": 50
+    },
+    {
+      "keyValue": "Shift",
+      "keyValueType": 1,
+      "type": 0,
+      "delay": 120
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+<Root>
+  <DefaultMacro>
+    <Major></Major>
+    <Description>
+New Trick Mavuika Spin Endless Guide, especially for Stygian Onslaught Dire 6.1. This is best combo to deal 6-7 melt dmg. This combo is like this https://www.youtube.com/watch?v=pqpqOrLTkdI</Description>
+    <Comment>https://keyran.net - Free macros download | Скачать бесплатные макросы </Comment>
+    <GUIOption>
+      <RepeatType>0</RepeatType>
+    </GUIOption>
+    <KeyUp>
+      <Syntax></Syntax>
+    </KeyUp>
+    <KeyDown>
+      <Syntax>LeftDown 1
+Delay 320 ms
+LeftUp 1
+Delay 130 ms
+LeftDown 1
+KeyDown 225 1
+LeftDown 1
+LeftDown 1
+Delay 85 ms
+LeftDown 1
+KeyDown 225 1
+LeftDown 1
+LeftDown 1
+Delay 85 ms
+LeftDown 1
+KeyDown 225 1
+LeftDown 1
+LeftDown 1
+Delay 85 ms
+LeftDown 1
+KeyDown 225 1
+LeftDown 1
+LeftDown 1
+Delay 85 ms
+LeftDown 1
+KeyDown 225 1
+Delay 120 ms
+KeyUp 225 1</Syntax>
+    </KeyDown>
+    <Software>Genshin Impact</Software>
+  </DefaultMacro>
+</Root>
